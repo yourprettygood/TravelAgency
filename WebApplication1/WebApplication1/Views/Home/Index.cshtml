@@ -2,18 +2,113 @@
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-    <p.>Привет мир</p.>
-    <p>Дидур</p>
+<div class="container mt-5">
+    <!-- Hero / Welcome Section -->
+    <div class="text-center mb-5">
+        <h1 class="display-4">Каталог программ для обучения программированию</h1>
+        <p class="lead">Найдите лучшие инструменты и программы для изучения программирования</p>
+    </div>
+
+    <!-- About Section -->
+    <section id="about" class="mb-5">
+        <h2 class="text-center mb-3">О нас</h2>
+        <p class="text-center">Мы собираем и систематизируем программы и сервисы для обучения программированию, чтобы помочь новичкам и профессионалам выбрать лучшие инструменты.</p>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="mb-5">
+        <h2 class="text-center mb-4">Услуги</h2>
+        <div class="row text-center">
+            <div class="col-md-4 mb-3">
+                <div class="card h-100 p-3 shadow-sm">
+                    <h5>Каталог ПО</h5>
+                    <p>База популярных приложений и сервисов для изучения языков программирования.</p>
+                </div>
+            </div>
+            <div class="col-md-4 mb-3">
+                <div class="card h-100 p-3 shadow-sm">
+                    <h5>Рекомендации</h5>
+                    <p>Подборки программ для разных уровней подготовки: новичков, студентов и профессионалов.</p>
+                </div>
+            </div>
+            <div class="col-md-4 mb-3">
+                <div class="card h-100 p-3 shadow-sm">
+                    <h5>Отзывы</h5>
+                    <p>Отзывы пользователей и рейтинг наиболее эффективных инструментов.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacts Section -->
+    <section id="contacts" class="mb-5">
+        <h2 class="text-center mb-3">Контакты</h2>
+        <p class="text-center">Свяжитесь с нами: info@progcat.com</p>
+    </section>
+
+    <!-- Login / Register Forms -->
+    <section id="auth" class="mb-5">
+        <h2 class="text-center mb-3">Вход / Регистрация</h2>
+        <div class="row">
+            <div class="col-md-6 mb-3">
+                <div class="card p-4 shadow-sm">
+                    <h4 class="mb-3 text-center">Вход</h4>
+                    <form>
+                        <div class="mb-3">
+                            <label>Email</label>
+                            <input type="email" class="form-control" placeholder="Введите email" />
+                        </div>
+                        <div class="mb-3">
+                            <label>Пароль</label>
+                            <input type="password" class="form-control" placeholder="Введите пароль" />
+                        </div>
+                        <button class="btn btn-primary w-100">Войти</button>
+                    </form>
+                </div>
+            </div>
+            <div class="col-md-6 mb-3">
+                <div class="card p-4 shadow-sm">
+                    <h4 class="mb-3 text-center">Регистрация</h4>
+                    <form>
+                        <div class="mb-3">
+                            <label>Email</label>
+                            <input type="email" class="form-control" placeholder="Введите email" />
+                        </div>
+                        <div class="mb-3">
+                            <label>Пароль</label>
+                            <input type="password" class="form-control" placeholder="Введите пароль" />
+                        </div>
+                        <button class="btn btn-success w-100">Зарегистрироваться</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Message Form Section -->
+    <section id="message" class="mb-5">
+        <h2 class="text-center mb-3">Написать сообщение</h2>
+        <form class="mx-auto" style="max-width: 600px;">
+            <div class="mb-3">
+                <label>Ваше имя</label>
+                <input type="text" class="form-control" placeholder="Ваше имя" />
+            </div>
+            <div class="mb-3">
+                <label>Email</label>
+                <input type="email" class="form-control" placeholder="Email" />
+            </div>
+            <div class="mb-3">
+                <label>Сообщение</label>
+                <textarea class="form-control" rows="4" placeholder="Ваше сообщение..."></textarea>
+            </div>
+            <button class="btn btn-primary w-100">Отправить</button>
+        </form>
+    </section>
 </div>
 
-
-
-
-
-
-
-
-
+<!-- Footer -->
+<footer class="bg-dark text-light py-3 mt-5">
+    <div class="container text-center">
+        <p class="mb-0">&copy; 2025 WebPracticalProject | Все права защищены</p>
+    </div>
+</footer>

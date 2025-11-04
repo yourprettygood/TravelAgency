@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\313\\\u0414\u0438\u0434\u0443\u0440\\TravelAgency\\TravelAgency\\WebApplication1\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{28DEDF04-9A0B-4D1A-9206-56267B067881}|WebApplication1\\Didur.csproj|d:\\313\\\u0434\u0438\u0434\u0443\u0440\\travelagency\\travelagency\\webapplication1\\webapplication1\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{28DEDF04-9A0B-4D1A-9206-56267B067881}|WebApplication1\\Didur.csproj|solutionrelative:webapplication1\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{28DEDF04-9A0B-4D1A-9206-56267B067881}|WebApplication1\\Didur.csproj|d:\\313\\\u0434\u0438\u0434\u0443\u0440\\travelagency\\travelagency\\webapplication1\\webapplication1\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{28DEDF04-9A0B-4D1A-9206-56267B067881}|WebApplication1\\Didur.csproj|solutionrelative:webapplication1\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
@@ -19,12 +23,25 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\313\\\u0414\u0438\u0434\u0443\u0440\\TravelAgency\\TravelAgency\\WebApplication1\\WebApplication1\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\313\\\u0414\u0438\u0434\u0443\u0440\\TravelAgency\\TravelAgency\\WebApplication1\\WebApplication1\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAFsAAAAAAAAAAAAAwGMAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-04T13:24:42.638Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "D:\\313\\\u0414\u0438\u0434\u0443\u0440\\TravelAgency\\TravelAgency\\WebApplication1\\WebApplication1\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "WebApplication1\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "D:\\313\\\u0414\u0438\u0434\u0443\u0440\\TravelAgency\\TravelAgency\\WebApplication1\\WebApplication1\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "WebApplication1\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAQwBcAAAAaAAAAAAAAAA==",
+              "ToolTip": "D:\\313\\\u0414\u0438\u0434\u0443\u0440\\TravelAgency\\TravelAgency\\WebApplication1\\WebApplication1\\Views\\Shared\\_Layout.cshtml*",
+              "RelativeToolTip": "WebApplication1\\Views\\Shared\\_Layout.cshtml*",
+              "ViewState": "AgIAABAAAAAAAAAAAAAAwB8AAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-11-03T15:16:53.34Z",
               "EditorCaption": ""
