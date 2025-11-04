@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\313\\Дидур\\TravelAgency\\TravelAgency\\WebApplication1\\WebApplication1\\Didur.csproj": {}
+    "D:\\313\\Practica2025\\WebApplication1\\WebApplication1\\Didur.csproj": {}
   },
   "projects": {
-    "D:\\313\\Дидур\\TravelAgency\\TravelAgency\\WebApplication1\\DomainTravelAgency\\DomainTravelAgency.csproj": {
+    "D:\\313\\Practica2025\\WebApplication1\\DomainTravelAgency\\DomainTravelAgency.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\313\\Дидур\\TravelAgency\\TravelAgency\\WebApplication1\\DomainTravelAgency\\DomainTravelAgency.csproj",
+        "projectUniqueName": "D:\\313\\Practica2025\\WebApplication1\\DomainTravelAgency\\DomainTravelAgency.csproj",
         "projectName": "DomainTravelAgency",
-        "projectPath": "D:\\313\\Дидур\\TravelAgency\\TravelAgency\\WebApplication1\\DomainTravelAgency\\DomainTravelAgency.csproj",
+        "projectPath": "D:\\313\\Practica2025\\WebApplication1\\DomainTravelAgency\\DomainTravelAgency.csproj",
         "packagesPath": "D:\\Users\\tmu9.SERVER-ECONOM\\.nuget\\packages\\",
-        "outputPath": "D:\\313\\Дидур\\TravelAgency\\TravelAgency\\WebApplication1\\DomainTravelAgency\\obj\\",
+        "outputPath": "D:\\313\\Practica2025\\WebApplication1\\DomainTravelAgency\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -69,14 +69,14 @@
         }
       }
     },
-    "D:\\313\\Дидур\\TravelAgency\\TravelAgency\\WebApplication1\\service.TravelAgency\\service.TravelAgency.csproj": {
+    "D:\\313\\Practica2025\\WebApplication1\\service.TravelAgency\\service.TravelAgency.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\313\\Дидур\\TravelAgency\\TravelAgency\\WebApplication1\\service.TravelAgency\\service.TravelAgency.csproj",
+        "projectUniqueName": "D:\\313\\Practica2025\\WebApplication1\\service.TravelAgency\\service.TravelAgency.csproj",
         "projectName": "service.TravelAgency",
-        "projectPath": "D:\\313\\Дидур\\TravelAgency\\TravelAgency\\WebApplication1\\service.TravelAgency\\service.TravelAgency.csproj",
+        "projectPath": "D:\\313\\Practica2025\\WebApplication1\\service.TravelAgency\\service.TravelAgency.csproj",
         "packagesPath": "D:\\Users\\tmu9.SERVER-ECONOM\\.nuget\\packages\\",
-        "outputPath": "D:\\313\\Дидур\\TravelAgency\\TravelAgency\\WebApplication1\\service.TravelAgency\\obj\\",
+        "outputPath": "D:\\313\\Practica2025\\WebApplication1\\service.TravelAgency\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -97,8 +97,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\313\\Дидур\\TravelAgency\\TravelAgency\\WebApplication1\\DomainTravelAgency\\DomainTravelAgency.csproj": {
-                "projectPath": "D:\\313\\Дидур\\TravelAgency\\TravelAgency\\WebApplication1\\DomainTravelAgency\\DomainTravelAgency.csproj"
+              "D:\\313\\Practica2025\\WebApplication1\\DomainTravelAgency\\DomainTravelAgency.csproj": {
+                "projectPath": "D:\\313\\Practica2025\\WebApplication1\\DomainTravelAgency\\DomainTravelAgency.csproj"
               }
             }
           }
@@ -138,14 +138,14 @@
         }
       }
     },
-    "D:\\313\\Дидур\\TravelAgency\\TravelAgency\\WebApplication1\\WebApplication1\\Didur.csproj": {
+    "D:\\313\\Practica2025\\WebApplication1\\WebApplication1\\Didur.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\313\\Дидур\\TravelAgency\\TravelAgency\\WebApplication1\\WebApplication1\\Didur.csproj",
+        "projectUniqueName": "D:\\313\\Practica2025\\WebApplication1\\WebApplication1\\Didur.csproj",
         "projectName": "Didur",
-        "projectPath": "D:\\313\\Дидур\\TravelAgency\\TravelAgency\\WebApplication1\\WebApplication1\\Didur.csproj",
+        "projectPath": "D:\\313\\Practica2025\\WebApplication1\\WebApplication1\\Didur.csproj",
         "packagesPath": "D:\\Users\\tmu9.SERVER-ECONOM\\.nuget\\packages\\",
-        "outputPath": "D:\\313\\Дидур\\TravelAgency\\TravelAgency\\WebApplication1\\WebApplication1\\obj\\",
+        "outputPath": "D:\\313\\Practica2025\\WebApplication1\\WebApplication1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -166,8 +166,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\313\\Дидур\\TravelAgency\\TravelAgency\\WebApplication1\\service.TravelAgency\\service.TravelAgency.csproj": {
-                "projectPath": "D:\\313\\Дидур\\TravelAgency\\TravelAgency\\WebApplication1\\service.TravelAgency\\service.TravelAgency.csproj"
+              "D:\\313\\Practica2025\\WebApplication1\\service.TravelAgency\\service.TravelAgency.csproj": {
+                "projectPath": "D:\\313\\Practica2025\\WebApplication1\\service.TravelAgency\\service.TravelAgency.csproj"
               }
             }
           }

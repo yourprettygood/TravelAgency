@@ -1,114 +1,106 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "Главная";
 }
 
-<div class="container mt-5">
-    <!-- Hero / Welcome Section -->
-    <div class="text-center mb-5">
-        <h1 class="display-4">Каталог программ для обучения программированию</h1>
-        <p class="lead">Найдите лучшие инструменты и программы для изучения программирования</p>
+<!-- Герой секция -->
+<section class="hero-section text-center">
+    <div class="container">
+        <h1 class="display-4 fw-bold mb-4">Каталог программ для обучения программированию</h1>
+        <p class="lead mb-4">Освойте программирование с лучшими образовательными программами и ресурсами</p>
+        <a href="#services" class="btn btn-light btn-lg">Начать обучение</a>
     </div>
+</section>
 
-    <!-- About Section -->
-    <section id="about" class="mb-5">
-        <h2 class="text-center mb-3">О нас</h2>
-        <p class="text-center">Мы собираем и систематизируем программы и сервисы для обучения программированию, чтобы помочь новичкам и профессионалам выбрать лучшие инструменты.</p>
-    </section>
+<!-- Секция "О нас" -->
+<section id="about" class="py-5">
+    <div class="container">
+        <h2 class="text-center section-title">О нас</h2>
+        <div class="row justify-content-center">
+            <div class="col-lg-8 text-center">
+                <p class="lead">CodeMaster - это инновационная платформа для обучения программированию, объединяющая лучшие образовательные программы и ресурсы.</p>
+                <p class="mb-4">Мы помогаем начинающим и опытным разработчикам находить оптимальные пути для профессионального роста и развития навыков программирования!</p>
+            </div>
+        </div>
+    </div>
+</section>
 
-    <!-- Services Section -->
-    <section id="services" class="mb-5">
-        <h2 class="text-center mb-4">Услуги</h2>
-        <div class="row text-center">
-            <div class="col-md-4 mb-3">
-                <div class="card h-100 p-3 shadow-sm">
-                    <h5>Каталог ПО</h5>
-                    <p>База популярных приложений и сервисов для изучения языков программирования.</p>
+<!-- Секция "Услуги" -->
+<section id="services" class="py-5 bg-light">
+    <div class="container">
+        <h2 class="text-center section-title">Наши услуги</h2>
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="card service-card h-100 text-center p-4">
+                    <div class="card-body">
+                        <i class="fas fa-laptop-code fa-3x text-primary mb-3"></i>
+                        <h5 class="card-title">Курсы программирования</h5>
+                        <p class="card-text">Подборка лучших курсов по различным языкам программирования и технологиям.</p>
+                    </div>
                 </div>
             </div>
-            <div class="col-md-4 mb-3">
-                <div class="card h-100 p-3 shadow-sm">
-                    <h5>Рекомендации</h5>
-                    <p>Подборки программ для разных уровней подготовки: новичков, студентов и профессионалов.</p>
+            <div class="col-md-4">
+                <div class="card service-card h-100 text-center p-4">
+                    <div class="card-body">
+                        <i class="fas fa-project-diagram fa-3x text-primary mb-3"></i>
+                        <h5 class="card-title">Практические проекты</h5>
+                        <p class="card-text">Реальные проекты для закрепления знаний и формирования портфолио.</p>
+                    </div>
                 </div>
             </div>
-            <div class="col-md-4 mb-3">
-                <div class="card h-100 p-3 shadow-sm">
-                    <h5>Отзывы</h5>
-                    <p>Отзывы пользователей и рейтинг наиболее эффективных инструментов.</p>
+            <div class="col-md-4">
+                <div class="card service-card h-100 text-center p-4">
+                    <div class="card-body">
+                        <i class="fas fa-users fa-3x text-primary mb-3"></i>
+                        <h5 class="card-title">Сообщество</h5>
+                        <p class="card-text">Общение с единомышленниками, менторами и опытными разработчиками.</p>
+                    </div>
                 </div>
             </div>
         </div>
-    </section>
+    </div>
+</section>
 
-    <!-- Contacts Section -->
-    <section id="contacts" class="mb-5">
-        <h2 class="text-center mb-3">Контакты</h2>
-        <p class="text-center">Свяжитесь с нами: info@progcat.com</p>
-    </section>
-
-    <!-- Login / Register Forms -->
-    <section id="auth" class="mb-5">
-        <h2 class="text-center mb-3">Вход / Регистрация</h2>
-        <div class="row">
-            <div class="col-md-6 mb-3">
-                <div class="card p-4 shadow-sm">
-                    <h4 class="mb-3 text-center">Вход</h4>
-                    <form>
-                        <div class="mb-3">
-                            <label>Email</label>
-                            <input type="email" class="form-control" placeholder="Введите email" />
-                        </div>
-                        <div class="mb-3">
-                            <label>Пароль</label>
-                            <input type="password" class="form-control" placeholder="Введите пароль" />
-                        </div>
-                        <button class="btn btn-primary w-100">Войти</button>
-                    </form>
-                </div>
+<!-- Секция "Контакты" -->
+<section id="contact" class="py-5">
+    <div class="container">
+        <h2 class="text-center section-title">Контакты</h2>
+        <div class="row justify-content-center">
+            <div class="col-md-8 contact-info text-center">
+                <h4>Свяжитесь с нами</h4>
+                <p><i class="fas fa-map-marker-alt me-2"></i>Тирасполь, улица Карла Либкнехта, 395</p>
+                <p><i class="fas fa-phone me-2"></i>+373 775 31974</p>
+                <p><i class="fas fa-envelope me-2"></i>didur.danil@bk.ru</p>
             </div>
-            <div class="col-md-6 mb-3">
-                <div class="card p-4 shadow-sm">
-                    <h4 class="mb-3 text-center">Регистрация</h4>
-                    <form>
-                        <div class="mb-3">
-                            <label>Email</label>
-                            <input type="email" class="form-control" placeholder="Введите email" />
+        </div>  
+    </div>
+</section>
+
+<!-- Секция "Написать сообщение" -->
+<section class="py-5 bg-light">
+    <div class="container">
+        <h2 class="text-center section-title">Написать сообщение</h2>
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <form>
+                    <div class="row g-3">
+                        <div class="col-md-6">
+                            <input type="text" class="form-control" placeholder="Ваше имя" required>
                         </div>
-                        <div class="mb-3">
-                            <label>Пароль</label>
-                            <input type="password" class="form-control" placeholder="Введите пароль" />
+                        <div class="col-md-6">
+                            <input type="email" class="form-control" placeholder="Email" required>
                         </div>
-                        <button class="btn btn-success w-100">Зарегистрироваться</button>
-                    </form>
-                </div>
+                        <div class="col-12">
+                            <input type="text" class="form-control" placeholder="Тема сообщения">
+                        </div>
+                        <div class="col-12">
+                            <textarea class="form-control" rows="5" placeholder="Ваше сообщение" required></textarea>
+                        </div>
+                        <div class="col-12 text-center">
+                            <button type="submit" class="btn btn-primary btn-lg">Отправить сообщение</button>
+                        </div>
+                    </div>
+                </form>
             </div>
         </div>
-    </section>
-
-    <!-- Message Form Section -->
-    <section id="message" class="mb-5">
-        <h2 class="text-center mb-3">Написать сообщение</h2>
-        <form class="mx-auto" style="max-width: 600px;">
-            <div class="mb-3">
-                <label>Ваше имя</label>
-                <input type="text" class="form-control" placeholder="Ваше имя" />
-            </div>
-            <div class="mb-3">
-                <label>Email</label>
-                <input type="email" class="form-control" placeholder="Email" />
-            </div>
-            <div class="mb-3">
-                <label>Сообщение</label>
-                <textarea class="form-control" rows="4" placeholder="Ваше сообщение..."></textarea>
-            </div>
-            <button class="btn btn-primary w-100">Отправить</button>
-        </form>
-    </section>
-</div>
-
-<!-- Footer -->
-<footer class="bg-dark text-light py-3 mt-5">
-    <div class="container text-center">
-        <p class="mb-0">&copy; 2025 WebPracticalProject | Все права защищены</p>
     </div>
-</footer>
+</section>

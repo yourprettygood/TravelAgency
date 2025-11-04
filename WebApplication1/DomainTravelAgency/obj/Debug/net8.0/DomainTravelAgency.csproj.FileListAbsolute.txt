@@ -1,0 +1,12 @@
+D:\313\Дидур\TravelAgency\WebApplication1\DomainTravelAgency\bin\Debug\net8.0\DomainTravelAgency.deps.json
+D:\313\Дидур\TravelAgency\WebApplication1\DomainTravelAgency\bin\Debug\net8.0\DomainTravelAgency.dll
+D:\313\Дидур\TravelAgency\WebApplication1\DomainTravelAgency\bin\Debug\net8.0\DomainTravelAgency.pdb
+D:\313\Дидур\TravelAgency\WebApplication1\DomainTravelAgency\obj\Debug\net8.0\DomainTravelAgency.GeneratedMSBuildEditorConfig.editorconfig
+D:\313\Дидур\TravelAgency\WebApplication1\DomainTravelAgency\obj\Debug\net8.0\DomainTravelAgency.AssemblyInfoInputs.cache
+D:\313\Дидур\TravelAgency\WebApplication1\DomainTravelAgency\obj\Debug\net8.0\DomainTravelAgency.AssemblyInfo.cs
+D:\313\Дидур\TravelAgency\WebApplication1\DomainTravelAgency\obj\Debug\net8.0\DomainTravelAgency.csproj.CoreCompileInputs.cache
+D:\313\Дидур\TravelAgency\WebApplication1\DomainTravelAgency\obj\Debug\net8.0\DomainTravelAgency.sourcelink.json
+D:\313\Дидур\TravelAgency\WebApplication1\DomainTravelAgency\obj\Debug\net8.0\DomainTravelAgency.dll
+D:\313\Дидур\TravelAgency\WebApplication1\DomainTravelAgency\obj\Debug\net8.0\refint\DomainTravelAgency.dll
+D:\313\Дидур\TravelAgency\WebApplication1\DomainTravelAgency\obj\Debug\net8.0\DomainTravelAgency.pdb
+D:\313\Дидур\TravelAgency\WebApplication1\DomainTravelAgency\obj\Debug\net8.0\ref\DomainTravelAgency.dll
