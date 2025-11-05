@@ -1,0 +1,11 @@
+D:\313\Дидур\practice\TravelAgency\WebApplication1\WebApplication1\obj\Release\net8.0\PubTmp\Out\Didur.exe
+D:\313\Дидур\practice\TravelAgency\WebApplication1\WebApplication1\obj\Release\net8.0\PubTmp\Out\appsettings.Development.json
+D:\313\Дидур\practice\TravelAgency\WebApplication1\WebApplication1\obj\Release\net8.0\PubTmp\Out\appsettings.json
+D:\313\Дидур\practice\TravelAgency\WebApplication1\WebApplication1\obj\Release\net8.0\PubTmp\Out\Didur.dll
+D:\313\Дидур\practice\TravelAgency\WebApplication1\WebApplication1\obj\Release\net8.0\PubTmp\Out\Didur.deps.json
+D:\313\Дидур\practice\TravelAgency\WebApplication1\WebApplication1\obj\Release\net8.0\PubTmp\Out\Didur.runtimeconfig.json
+D:\313\Дидур\practice\TravelAgency\WebApplication1\WebApplication1\obj\Release\net8.0\PubTmp\Out\Didur.pdb
+D:\313\Дидур\practice\TravelAgency\WebApplication1\WebApplication1\obj\Release\net8.0\PubTmp\Out\DomainTravelAgency.dll
+D:\313\Дидур\practice\TravelAgency\WebApplication1\WebApplication1\obj\Release\net8.0\PubTmp\Out\service.TravelAgency.dll
+D:\313\Дидур\practice\TravelAgency\WebApplication1\WebApplication1\obj\Release\net8.0\PubTmp\Out\service.TravelAgency.pdb
+D:\313\Дидур\practice\TravelAgency\WebApplication1\WebApplication1\obj\Release\net8.0\PubTmp\Out\DomainTravelAgency.pdb

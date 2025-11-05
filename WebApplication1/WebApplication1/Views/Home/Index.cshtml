@@ -14,9 +14,13 @@
                     <a href="#catalog" class="btn btn-primary btn-lg">
                         <i class="fa-solid fa-compass me-2"></i> Открыть каталог
                     </a>
-                    <a href="#about" class="btn btn-outline-light btn-lg">
-                        <i class="fa-solid fa-circle-info me-2"></i> Узнать больше
-                    </a>
+                    <!-- Кнопки, открывающие модалки -->
+                    <button class="btn btn-outline-light btn-lg" data-bs-toggle="modal" data-bs-target="#loginModal">
+                        <i class="fa-regular fa-user me-2"></i> Войти
+                    </button>
+                    <button class="btn btn-outline-light btn-lg" data-bs-toggle="modal" data-bs-target="#registerModal">
+                        <i class="fa-solid fa-user-plus me-2"></i> Регистрация
+                    </button>
                 </div>
             </div>
             <div class="col-lg-5">
@@ -82,7 +86,7 @@
             </div>
         </div>
 
-        <!-- Онлайн IDE (исправленный снимок) -->
+        <!-- Онлайн IDE -->
         <div class="col-md-4">
             <div class="card feature-card rounded-3 h-100">
                 <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1200&q=80" alt="Онлайн IDE">
@@ -150,7 +154,7 @@
 <section id="catalog" class="container my-5">
     <div class="text-center mb-4">
         <h2 class="fw-bold">Каталог программ</h2>
-        <p class="text-muted">Подборка популярных обучающих платформ и инструментов. Нажимай на «Подробнее», чтобы перейти на официальный сайт.</p>
+        <p class="text-muted">Подборка популярных обучающих платформ и инструментов. Нажимай «Подробнее», чтобы перейти на официальный сайт.</p>
     </div>
 
     <div class="row g-4">
@@ -172,7 +176,7 @@
                 <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1200&q=80" class="card-img-top" alt="Code.org">
                 <div class="card-body">
                     <h5 class="card-title">Code.org</h5>
-                    <p class="card-text">Курсы и уроки для школ: от блоков до Python/JS. Много заданий с автоматической проверкой.</p>
+                    <p class="card-text">Курсы и уроки для школ: от блоков до Python/JS. Много заданий с автопроверкой.</p>
                     <a class="btn btn-primary w-100" href="https://code.org/" target="_blank" rel="noopener">Подробнее</a>
                 </div>
             </div>
@@ -240,15 +244,15 @@
                 <ul class="list-unstyled fs-5 mb-0">
                     <li class="mb-3">
                         <i class="fas fa-envelope me-2 text-primary"></i>
-                        <a href="mailto:info@codelearn.ru" class="text-decoration-none text-dark">info@codelearn.ru</a>
+                        <a href="mailto:didur.danil@bk.ru" class="text-decoration-none text-dark">didur.danil@bk.ru</a>
                     </li>
                     <li class="mb-3">
                         <i class="fab fa-telegram-plane me-2 text-primary"></i>
-                        <a href="https://t.me/codelearn" target="_blank" rel="noopener" class="text-decoration-none text-dark">Telegram-канал CodeLearn</a>
+                        <a href="https://t.me/deftones3njoyer" target="_blank" rel="noopener" class="text-decoration-none text-dark">Telegram-канал CodeLearn</a>
                     </li>
                     <li class="mb-3">
                         <i class="fab fa-github me-2 text-primary"></i>
-                        <a href="https://github.com" target="_blank" rel="noopener" class="text-decoration-none text-dark">GitHub проекта</a>
+                        <a href="https://github.com/youreprettygood/TravelAgency" target="_blank" rel="noopener" class="text-decoration-none text-dark">GitHub проекта</a>
                     </li>
                 </ul>
                 <div class="mt-3 small text-muted">Ответим в течение 1–2 рабочих дней.</div>
@@ -260,81 +264,7 @@
     </div>
 </section>
 
-<!-- ВХОД / РЕГИСТРАЦИЯ -->
-<section id="auth" class="container my-5">
-    <div class="text-center mb-4">
-        <h2 class="fw-bold">Вход / Регистрация</h2>
-        <p class="text-muted">Формы стилизованы — подключи бэкенд-логику, когда будет готово.</p>
-    </div>
-
-    <ul class="nav nav-pills justify-content-center gap-2" id="authTabs" role="tablist">
-        <li class="nav-item" role="presentation">
-            <button class="nav-link active" id="login-tab" data-bs-toggle="pill" data-bs-target="#login" type="button" role="tab">Вход</button>
-        </li>
-        <li class="nav-item" role="presentation">
-            <button class="nav-link" id="register-tab" data-bs-toggle="pill" data-bs-target="#register" type="button" role="tab">Регистрация</button>
-        </li>
-    </ul>
-
-    <div class="tab-content mt-4">
-        <div class="tab-pane fade show active" id="login" role="tabpanel" aria-labelledby="login-tab">
-            <div class="row justify-content-center">
-                <div class="col-md-6 col-lg-5">
-                    <div class="p-4 rounded-3 bg-white shadow-sm">
-                        <form>
-                            <div class="mb-3">
-                                <label class="form-label" for="loginEmail">Email</label>
-                                <input id="loginEmail" type="email" class="form-control" placeholder="you@example.com">
-                            </div>
-                            <div class="mb-3">
-                                <label class="form-label" for="loginPassword">Пароль</label>
-                                <input id="loginPassword" type="password" class="form-control" placeholder="••••••••">
-                            </div>
-                            <div class="d-flex justify-content-between align-items-center mb-3">
-                                <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" id="rememberMe">
-                                    <label class="form-check-label" for="rememberMe">Запомнить меня</label>
-                                </div>
-                                <a href="#" class="small">Забыли пароль?</a>
-                            </div>
-                            <button type="submit" class="btn btn-primary w-100">Войти</button>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="tab-pane fade" id="register" role="tabpanel" aria-labelledby="register-tab">
-            <div class="row justify-content-center">
-                <div class="col-md-6 col-lg-5">
-                    <div class="p-4 rounded-3 bg-white shadow-sm">
-                        <form>
-                            <div class="mb-3">
-                                <label class="form-label" for="regName">Имя</label>
-                                <input id="regName" type="text" class="form-control" placeholder="Ваше имя">
-                            </div>
-                            <div class="mb-3">
-                                <label class="form-label" for="regEmail">Email</label>
-                                <input id="regEmail" type="email" class="form-control" placeholder="you@example.com">
-                            </div>
-                            <div class="mb-3">
-                                <label class="form-label" for="regPassword">Пароль</label>
-                                <input id="regPassword" type="password" class="form-control" placeholder="Минимум 8 символов">
-                            </div>
-                            <div class="mb-3">
-                                <label class="form-label" for="regPassword2">Повторите пароль</label>
-                                <input id="regPassword2" type="password" class="form-control" placeholder="Ещё раз пароль">
-                            </div>
-                            <button type="submit" class="btn btn-primary w-100">Создать аккаунт</button>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- НАПИСАТЬ СООБЩЕНИЕ -->
+<!-- Сообщение — оставляем как раньше -->
 <section id="message" class="container my-5">
     <div class="text-center mb-4">
         <h2 class="fw-bold">Написать сообщение</h2>
