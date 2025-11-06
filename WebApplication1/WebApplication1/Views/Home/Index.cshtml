@@ -273,8 +273,9 @@
     <div class="row justify-content-center">
         <div class="col-lg-8">
             <div class="p-4 rounded-3 bg-white shadow-sm">
-                <form>
+                <form id="messageForm">
                     <div class="row g-3">
+
                         <div class="col-md-6">
                             <label class="form-label" for="msgName">Ваше имя</label>
                             <input id="msgName" type="text" class="form-control" placeholder="Имя">
@@ -289,13 +290,16 @@
                         </div>
                         <div class="col-12">
                             <label class="form-label" for="msgText">Сообщение</label>
-                            <textarea id="msgText" rows="5" class="form-control" placeholder="Ваше сообщение..."></textarea>
+                            <textarea id="msgText" name="text" rows="5" class="form-control" placeholder="Ваше сообщение..." required></textarea>
                         </div>
+
                     </div>
                     <button type="submit" class="btn btn-primary mt-3">
                         <i class="fa-regular fa-paper-plane me-2"></i>Отправить
                     </button>
                 </form>
+                <ul id="chatList" class="list-unstyled mt-3"></ul>
+
             </div>
         </div>
     </div>

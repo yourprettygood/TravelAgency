@@ -3,12 +3,40 @@
   "WorkspaceRootPath": "D:\\313\\\u0414\u0438\u0434\u0443\u0440\\practice\\TravelAgency\\WebApplication1\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{28DEDF04-9A0B-4D1A-9206-56267B067881}|WebApplication1\\Didur.csproj|d:\\313\\\u0434\u0438\u0434\u0443\u0440\\practice\\travelagency\\webapplication1\\webapplication1\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{28DEDF04-9A0B-4D1A-9206-56267B067881}|WebApplication1\\Didur.csproj|solutionrelative:webapplication1\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{28DEDF04-9A0B-4D1A-9206-56267B067881}|WebApplication1\\Didur.csproj|d:\\313\\\u0434\u0438\u0434\u0443\u0440\\practice\\travelagency\\webapplication1\\webapplication1\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{28DEDF04-9A0B-4D1A-9206-56267B067881}|WebApplication1\\Didur.csproj|solutionrelative:webapplication1\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{28DEDF04-9A0B-4D1A-9206-56267B067881}|WebApplication1\\Didur.csproj|d:\\313\\\u0434\u0438\u0434\u0443\u0440\\practice\\travelagency\\webapplication1\\webapplication1\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{28DEDF04-9A0B-4D1A-9206-56267B067881}|WebApplication1\\Didur.csproj|solutionrelative:webapplication1\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{28DEDF04-9A0B-4D1A-9206-56267B067881}|WebApplication1\\Didur.csproj|d:\\313\\\u0434\u0438\u0434\u0443\u0440\\practice\\travelagency\\webapplication1\\webapplication1\\wwwroot\\js\\auth.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{28DEDF04-9A0B-4D1A-9206-56267B067881}|WebApplication1\\Didur.csproj|solutionrelative:webapplication1\\wwwroot\\js\\auth.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28DEDF04-9A0B-4D1A-9206-56267B067881}|WebApplication1\\Didur.csproj|d:\\313\\\u0434\u0438\u0434\u0443\u0440\\practice\\travelagency\\webapplication1\\webapplication1\\wwwroot\\js\\messages.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{28DEDF04-9A0B-4D1A-9206-56267B067881}|WebApplication1\\Didur.csproj|solutionrelative:webapplication1\\wwwroot\\js\\messages.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28DEDF04-9A0B-4D1A-9206-56267B067881}|WebApplication1\\Didur.csproj|d:\\313\\\u0434\u0438\u0434\u0443\u0440\\practice\\travelagency\\webapplication1\\webapplication1\\controllers\\api\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28DEDF04-9A0B-4D1A-9206-56267B067881}|WebApplication1\\Didur.csproj|solutionrelative:webapplication1\\controllers\\api\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28DEDF04-9A0B-4D1A-9206-56267B067881}|WebApplication1\\Didur.csproj|d:\\313\\\u0434\u0438\u0434\u0443\u0440\\practice\\travelagency\\webapplication1\\webapplication1\\controllers\\api\\messagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28DEDF04-9A0B-4D1A-9206-56267B067881}|WebApplication1\\Didur.csproj|solutionrelative:webapplication1\\controllers\\api\\messagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28DEDF04-9A0B-4D1A-9206-56267B067881}|WebApplication1\\Didur.csproj|d:\\313\\\u0434\u0438\u0434\u0443\u0440\\practice\\travelagency\\webapplication1\\webapplication1\\models\\authdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28DEDF04-9A0B-4D1A-9206-56267B067881}|WebApplication1\\Didur.csproj|solutionrelative:webapplication1\\models\\authdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28DEDF04-9A0B-4D1A-9206-56267B067881}|WebApplication1\\Didur.csproj|d:\\313\\\u0434\u0438\u0434\u0443\u0440\\practice\\travelagency\\webapplication1\\webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28DEDF04-9A0B-4D1A-9206-56267B067881}|WebApplication1\\Didur.csproj|solutionrelative:webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28DEDF04-9A0B-4D1A-9206-56267B067881}|WebApplication1\\Didur.csproj|d:\\313\\\u0434\u0438\u0434\u0443\u0440\\practice\\travelagency\\webapplication1\\webapplication1\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28DEDF04-9A0B-4D1A-9206-56267B067881}|WebApplication1\\Didur.csproj|solutionrelative:webapplication1\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,32 +46,123 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
+              "Title": "messages.js",
+              "DocumentMoniker": "D:\\313\\\u0414\u0438\u0434\u0443\u0440\\practice\\TravelAgency\\WebApplication1\\WebApplication1\\wwwroot\\js\\messages.js",
+              "RelativeDocumentMoniker": "WebApplication1\\wwwroot\\js\\messages.js",
+              "ToolTip": "D:\\313\\\u0414\u0438\u0434\u0443\u0440\\practice\\TravelAgency\\WebApplication1\\WebApplication1\\wwwroot\\js\\messages.js*",
+              "RelativeToolTip": "WebApplication1\\wwwroot\\js\\messages.js*",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAcwBAAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-11-06T15:20:20.097Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "auth.js",
+              "DocumentMoniker": "D:\\313\\\u0414\u0438\u0434\u0443\u0440\\practice\\TravelAgency\\WebApplication1\\WebApplication1\\wwwroot\\js\\auth.js",
+              "RelativeDocumentMoniker": "WebApplication1\\wwwroot\\js\\auth.js",
+              "ToolTip": "D:\\313\\\u0414\u0438\u0434\u0443\u0440\\practice\\TravelAgency\\WebApplication1\\WebApplication1\\wwwroot\\js\\auth.js*",
+              "RelativeToolTip": "WebApplication1\\wwwroot\\js\\auth.js*",
+              "ViewState": "AgIAACQAAAAAAAAAAAAMwDEAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-11-06T15:19:39.429Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\313\\\u0414\u0438\u0434\u0443\u0440\\practice\\TravelAgency\\WebApplication1\\WebApplication1\\Program.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Program.cs",
+              "ToolTip": "D:\\313\\\u0414\u0438\u0434\u0443\u0440\\practice\\TravelAgency\\WebApplication1\\WebApplication1\\Program.cs*",
+              "RelativeToolTip": "WebApplication1\\Program.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-06T15:18:30.193Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MessagesController.cs",
+              "DocumentMoniker": "D:\\313\\\u0414\u0438\u0434\u0443\u0440\\practice\\TravelAgency\\WebApplication1\\WebApplication1\\Controllers\\Api\\MessagesController.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\Api\\MessagesController.cs",
+              "ToolTip": "D:\\313\\\u0414\u0438\u0434\u0443\u0440\\practice\\TravelAgency\\WebApplication1\\WebApplication1\\Controllers\\Api\\MessagesController.cs*",
+              "RelativeToolTip": "WebApplication1\\Controllers\\Api\\MessagesController.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-06T15:18:19.455Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "D:\\313\\\u0414\u0438\u0434\u0443\u0440\\practice\\TravelAgency\\WebApplication1\\WebApplication1\\Controllers\\Api\\AuthController.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\Api\\AuthController.cs",
+              "ToolTip": "D:\\313\\\u0414\u0438\u0434\u0443\u0440\\practice\\TravelAgency\\WebApplication1\\WebApplication1\\Controllers\\Api\\AuthController.cs*",
+              "RelativeToolTip": "WebApplication1\\Controllers\\Api\\AuthController.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-06T15:16:32.121Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AuthDtos.cs",
+              "DocumentMoniker": "D:\\313\\\u0414\u0438\u0434\u0443\u0440\\practice\\TravelAgency\\WebApplication1\\WebApplication1\\Models\\AuthDtos.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Models\\AuthDtos.cs",
+              "ToolTip": "D:\\313\\\u0414\u0438\u0434\u0443\u0440\\practice\\TravelAgency\\WebApplication1\\WebApplication1\\Models\\AuthDtos.cs*",
+              "RelativeToolTip": "WebApplication1\\Models\\AuthDtos.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-06T15:15:58.264Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "D:\\313\\\u0414\u0438\u0434\u0443\u0440\\practice\\TravelAgency\\WebApplication1\\WebApplication1\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "WebApplication1\\Views\\Shared\\_Layout.cshtml",
               "ToolTip": "D:\\313\\\u0414\u0438\u0434\u0443\u0440\\practice\\TravelAgency\\WebApplication1\\WebApplication1\\Views\\Shared\\_Layout.cshtml*",
               "RelativeToolTip": "WebApplication1\\Views\\Shared\\_Layout.cshtml*",
-              "ViewState": "AgIAAPUAAAAAAAAAAADwvwYBAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAOMAAAAAAAAAAAAMwPkAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-11-04T19:54:14.098Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\313\\\u0414\u0438\u0434\u0443\u0440\\practice\\TravelAgency\\WebApplication1\\WebApplication1\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "WebApplication1\\Views\\Home\\Index.cshtml",
-              "ToolTip": "D:\\313\\\u0414\u0438\u0434\u0443\u0440\\practice\\TravelAgency\\WebApplication1\\WebApplication1\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "WebApplication1\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAABsBAAAAAAAAAAAkwC0BAAAKAAAAAAAAAA==",
+              "ToolTip": "D:\\313\\\u0414\u0438\u0434\u0443\u0440\\practice\\TravelAgency\\WebApplication1\\WebApplication1\\Views\\Home\\Index.cshtml*",
+              "RelativeToolTip": "WebApplication1\\Views\\Home\\Index.cshtml*",
+              "ViewState": "AgIAAB8BAAAAAAAAAAAMwDIBAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-11-04T19:54:08.413Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "D:\\313\\\u0414\u0438\u0434\u0443\u0440\\practice\\TravelAgency\\WebApplication1\\WebApplication1\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Models\\ErrorViewModel.cs",
+              "ToolTip": "D:\\313\\\u0414\u0438\u0434\u0443\u0440\\practice\\TravelAgency\\WebApplication1\\WebApplication1\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "WebApplication1\\Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-06T15:15:26.158Z",
               "EditorCaption": ""
             }
           ]
