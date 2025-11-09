@@ -13,6 +13,14 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "D:\\ghubrepos\\TravelAgency\\WebApplication1\\WebApplication1\\wwwroot\\js\\auth.js",
+      "PackagePath": "staticwebassets\\js\\auth.js"
+    },
+    {
+      "Id": "D:\\ghubrepos\\TravelAgency\\WebApplication1\\WebApplication1\\wwwroot\\js\\messages.js",
+      "PackagePath": "staticwebassets\\js\\messages.js"
+    },
+    {
       "Id": "D:\\ghubrepos\\TravelAgency\\WebApplication1\\WebApplication1\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

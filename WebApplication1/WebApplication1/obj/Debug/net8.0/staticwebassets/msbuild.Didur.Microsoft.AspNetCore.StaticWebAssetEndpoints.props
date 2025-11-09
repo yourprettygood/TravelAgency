@@ -36,6 +36,30 @@
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Jtxf9L\u002B5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"5430"},{"Name":"Content-Type","Value":"image/x-icon"},{"Name":"ETag","Value":"\u0022Jtxf9L\u002B5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM=\u0022"},{"Name":"Last-Modified","Value":"Tue, 04 Nov 2025 19:08:59 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Didur/js/auth.e78i5ajl2i.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\auth.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"e78i5ajl2i"},{"Name":"integrity","Value":"sha256-CvfKBVLBeyAd0excaDi1OFkOKF3dy6JpH0p71v3sNCo="},{"Name":"label","Value":"_content/Didur/js/auth.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"9200"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022CvfKBVLBeyAd0excaDi1OFkOKF3dy6JpH0p71v3sNCo=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Nov 2025 15:58:31 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Didur/js/auth.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\auth.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-CvfKBVLBeyAd0excaDi1OFkOKF3dy6JpH0p71v3sNCo="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"9200"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022CvfKBVLBeyAd0excaDi1OFkOKF3dy6JpH0p71v3sNCo=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Nov 2025 15:58:31 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Didur/js/messages.jfk4aai9tl.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\messages.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"jfk4aai9tl"},{"Name":"integrity","Value":"sha256-b1I\u002BnSNf0r5PrjoBrp1u00ZmcVJIoBrTo\u002Baq7PX16TM="},{"Name":"label","Value":"_content/Didur/js/messages.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2731"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022b1I\u002BnSNf0r5PrjoBrp1u00ZmcVJIoBrTo\u002Baq7PX16TM=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Nov 2025 15:44:56 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Didur/js/messages.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\messages.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-b1I\u002BnSNf0r5PrjoBrp1u00ZmcVJIoBrTo\u002Baq7PX16TM="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"2731"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022b1I\u002BnSNf0r5PrjoBrp1u00ZmcVJIoBrTo\u002Baq7PX16TM=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Nov 2025 15:44:56 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Didur/js/site.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\site.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>

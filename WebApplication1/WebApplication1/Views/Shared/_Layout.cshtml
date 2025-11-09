@@ -187,7 +187,7 @@
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
                 </div>
                 <div class="modal-body">
-                    <form id="loginForm">
+                    <form id="loginForm" novalidate>
                         <div class="mb-3">
                             <label for="loginEmail" class="form-label">Email</label>
                             <input type="email" class="form-control" id="loginEmail" name="email" placeholder="you@example.com" required>
@@ -205,7 +205,7 @@
                             <a class="small" href="#">Забыли пароль?</a>
                         </div>
 
-                        <button type="submit" class="btn btn-primary w-100">Войти</button>
+                        <button type="submit" class="btn btn-primary w-100" id="loginSubmitBtn">Войти</button>
                     </form>
 
                 </div>
@@ -228,7 +228,7 @@
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
                 </div>
                 <div class="modal-body">
-                    <form id="registerForm">
+                    <form id="registerForm" novalidate>
                         <div class="mb-3">
                             <label for="regName" class="form-label">Имя</label>
                             <input type="text" class="form-control" id="regName" name="name" placeholder="Ваше имя">
@@ -243,10 +243,10 @@
                         </div>
                         <div class="mb-3">
                             <label for="regPassword2" class="form-label">Повторите пароль</label>
-                            <input type="password" class="form-control" id="regPassword2" placeholder="Ещё раз пароль">
+                            <input type="password" class="form-control" id="regPassword2" name="passwordConfirm" placeholder="Ещё раз пароль" required>
                         </div>
 
-                        <button type="submit" class="btn btn-primary w-100">Создать аккаунт</button>
+                        <button type="submit" class="btn btn-primary w-100" id="registerSubmitBtn">Создать аккаунт</button>
                     </form>
 
                 </div>
