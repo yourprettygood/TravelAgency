@@ -78,7 +78,7 @@ function setLoading(btnEl, isLoading, textIdle, textLoading) {
 })();
 
 // ========== fetch helper ==========
-async function postJson(url, data) {
+async function postJson(url,     data) {
     const res = await fetch(url, {
         method: "POST",
         headers: { "Content-Type": "application/json" },

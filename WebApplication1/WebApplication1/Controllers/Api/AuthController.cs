@@ -14,7 +14,7 @@ namespace WebApplication1.Controllers.Api
                 return BadRequest(new { ok = false, error = "Email и пароль обязательны" });
             return Ok(new { ok = true, message = "Регистрация успешна" });
         }
-
+    /* api/auth/login */
         [HttpPost("login")]
         public IActionResult Login([FromBody] LoginRequest req)
         {
