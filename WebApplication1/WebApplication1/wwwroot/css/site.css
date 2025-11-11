@@ -91,11 +91,21 @@ body {
         font-size: 1.75rem;
     }
 
-    .hero .d-flex > * {
+    .hero .d-flex > * { 
         flex: 1 0 100%;
     }
 
     .feature-card {
         margin-bottom: 1rem;
     }
+}
+/* ¬осстановить поведение collapse дл€ navbar-expand-lg на ширине < 992px */
+@media (max-width: 991.98px) {
+    .navbar-expand-lg .navbar-collapse {
+        display: none !important;
+    }
+
+        .navbar-expand-lg .navbar-collapse.show {
+            display: block !important;
+        }
 }
