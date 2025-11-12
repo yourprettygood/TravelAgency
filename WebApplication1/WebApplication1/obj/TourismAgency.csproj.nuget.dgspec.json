@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\313\\Дидур\\TravelAgency\\WebApplication1\\WebApplication1\\TourismAgency.csproj": {}
+    "D:\\ghubrepos\\TravelAgency\\WebApplication1\\WebApplication1\\TourismAgency.csproj": {}
   },
   "projects": {
-    "D:\\313\\Дидур\\TravelAgency\\WebApplication1\\WebApplication1\\TourismAgency.csproj": {
+    "D:\\ghubrepos\\TravelAgency\\WebApplication1\\WebApplication1\\TourismAgency.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\313\\Дидур\\TravelAgency\\WebApplication1\\WebApplication1\\TourismAgency.csproj",
+        "projectUniqueName": "D:\\ghubrepos\\TravelAgency\\WebApplication1\\WebApplication1\\TourismAgency.csproj",
         "projectName": "TourismAgency",
-        "projectPath": "D:\\313\\Дидур\\TravelAgency\\WebApplication1\\WebApplication1\\TourismAgency.csproj",
-        "packagesPath": "D:\\Users\\tmu9.SERVER-ECONOM\\.nuget\\packages\\",
-        "outputPath": "D:\\313\\Дидур\\TravelAgency\\WebApplication1\\WebApplication1\\obj\\",
+        "projectPath": "D:\\ghubrepos\\TravelAgency\\WebApplication1\\WebApplication1\\TourismAgency.csproj",
+        "packagesPath": "C:\\Users\\didur\\.nuget\\packages\\",
+        "outputPath": "D:\\ghubrepos\\TravelAgency\\WebApplication1\\WebApplication1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "D:\\Users\\tmu9.SERVER-ECONOM\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\didur\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -44,7 +44,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0": {
@@ -68,7 +68,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
