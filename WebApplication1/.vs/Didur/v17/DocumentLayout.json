@@ -3,12 +3,44 @@
   "WorkspaceRootPath": "D:\\ghubrepos\\TravelAgency\\WebApplication1\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{28DEDF04-9A0B-4D1A-9206-56267B067881}|WebApplication1\\Didur.csproj|d:\\ghubrepos\\travelagency\\webapplication1\\webapplication1\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{28DEDF04-9A0B-4D1A-9206-56267B067881}|WebApplication1\\Didur.csproj|solutionrelative:webapplication1\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28DEDF04-9A0B-4D1A-9206-56267B067881}|WebApplication1\\Didur.csproj|d:\\ghubrepos\\travelagency\\webapplication1\\webapplication1\\controllers\\dbtestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28DEDF04-9A0B-4D1A-9206-56267B067881}|WebApplication1\\Didur.csproj|solutionrelative:webapplication1\\controllers\\dbtestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{28DEDF04-9A0B-4D1A-9206-56267B067881}|WebApplication1\\Didur.csproj|d:\\ghubrepos\\travelagency\\webapplication1\\webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{28DEDF04-9A0B-4D1A-9206-56267B067881}|WebApplication1\\Didur.csproj|solutionrelative:webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{28DEDF04-9A0B-4D1A-9206-56267B067881}|WebApplication1\\Didur.csproj|d:\\ghubrepos\\travelagency\\webapplication1\\webapplication1\\models\\entities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28DEDF04-9A0B-4D1A-9206-56267B067881}|WebApplication1\\Didur.csproj|solutionrelative:webapplication1\\models\\entities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28DEDF04-9A0B-4D1A-9206-56267B067881}|WebApplication1\\Didur.csproj|d:\\ghubrepos\\travelagency\\webapplication1\\webapplication1\\models\\authdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28DEDF04-9A0B-4D1A-9206-56267B067881}|WebApplication1\\Didur.csproj|solutionrelative:webapplication1\\models\\authdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28DEDF04-9A0B-4D1A-9206-56267B067881}|WebApplication1\\Didur.csproj|d:\\ghubrepos\\travelagency\\webapplication1\\webapplication1\\controllers\\api\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28DEDF04-9A0B-4D1A-9206-56267B067881}|WebApplication1\\Didur.csproj|solutionrelative:webapplication1\\controllers\\api\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28DEDF04-9A0B-4D1A-9206-56267B067881}|WebApplication1\\Didur.csproj|d:\\ghubrepos\\travelagency\\webapplication1\\webapplication1\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28DEDF04-9A0B-4D1A-9206-56267B067881}|WebApplication1\\Didur.csproj|solutionrelative:webapplication1\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{28DEDF04-9A0B-4D1A-9206-56267B067881}|WebApplication1\\Didur.csproj|d:\\ghubrepos\\travelagency\\webapplication1\\webapplication1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{28DEDF04-9A0B-4D1A-9206-56267B067881}|WebApplication1\\Didur.csproj|solutionrelative:webapplication1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28DEDF04-9A0B-4D1A-9206-56267B067881}|WebApplication1\\Didur.csproj|d:\\ghubrepos\\travelagency\\webapplication1\\webapplication1\\wwwroot\\js\\auth.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{28DEDF04-9A0B-4D1A-9206-56267B067881}|WebApplication1\\Didur.csproj|solutionrelative:webapplication1\\wwwroot\\js\\auth.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28DEDF04-9A0B-4D1A-9206-56267B067881}|WebApplication1\\Didur.csproj|d:\\ghubrepos\\travelagency\\webapplication1\\webapplication1\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28DEDF04-9A0B-4D1A-9206-56267B067881}|WebApplication1\\Didur.csproj|solutionrelative:webapplication1\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{28DEDF04-9A0B-4D1A-9206-56267B067881}|WebApplication1\\Didur.csproj|d:\\ghubrepos\\travelagency\\webapplication1\\webapplication1\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
@@ -19,52 +51,12 @@
       "RelativeMoniker": "D:0:0:{28DEDF04-9A0B-4D1A-9206-56267B067881}|WebApplication1\\Didur.csproj|solutionrelative:webapplication1\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{28DEDF04-9A0B-4D1A-9206-56267B067881}|WebApplication1\\Didur.csproj|d:\\ghubrepos\\travelagency\\webapplication1\\webapplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{28DEDF04-9A0B-4D1A-9206-56267B067881}|WebApplication1\\Didur.csproj|solutionrelative:webapplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{28DEDF04-9A0B-4D1A-9206-56267B067881}|WebApplication1\\Didur.csproj|d:\\ghubrepos\\travelagency\\webapplication1\\webapplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{28DEDF04-9A0B-4D1A-9206-56267B067881}|WebApplication1\\Didur.csproj|solutionrelative:webapplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{28DEDF04-9A0B-4D1A-9206-56267B067881}|WebApplication1\\Didur.csproj|d:\\ghubrepos\\travelagency\\webapplication1\\webapplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{28DEDF04-9A0B-4D1A-9206-56267B067881}|WebApplication1\\Didur.csproj|solutionrelative:webapplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{28DEDF04-9A0B-4D1A-9206-56267B067881}|WebApplication1\\Didur.csproj|d:\\ghubrepos\\travelagency\\webapplication1\\webapplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{28DEDF04-9A0B-4D1A-9206-56267B067881}|WebApplication1\\Didur.csproj|solutionrelative:webapplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{28DEDF04-9A0B-4D1A-9206-56267B067881}|WebApplication1\\Didur.csproj|d:\\ghubrepos\\travelagency\\webapplication1\\webapplication1\\controllers\\api\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{28DEDF04-9A0B-4D1A-9206-56267B067881}|WebApplication1\\Didur.csproj|solutionrelative:webapplication1\\controllers\\api\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{28DEDF04-9A0B-4D1A-9206-56267B067881}|WebApplication1\\Didur.csproj|d:\\ghubrepos\\travelagency\\webapplication1\\webapplication1\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{28DEDF04-9A0B-4D1A-9206-56267B067881}|WebApplication1\\Didur.csproj|solutionrelative:webapplication1\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{28DEDF04-9A0B-4D1A-9206-56267B067881}|WebApplication1\\Didur.csproj|d:\\ghubrepos\\travelagency\\webapplication1\\webapplication1\\wwwroot\\js\\auth.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{28DEDF04-9A0B-4D1A-9206-56267B067881}|WebApplication1\\Didur.csproj|solutionrelative:webapplication1\\wwwroot\\js\\auth.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{28DEDF04-9A0B-4D1A-9206-56267B067881}|WebApplication1\\Didur.csproj|d:\\ghubrepos\\travelagency\\webapplication1\\webapplication1\\models\\authdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{28DEDF04-9A0B-4D1A-9206-56267B067881}|WebApplication1\\Didur.csproj|solutionrelative:webapplication1\\models\\authdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{28DEDF04-9A0B-4D1A-9206-56267B067881}|WebApplication1\\Didur.csproj|d:\\ghubrepos\\travelagency\\webapplication1\\webapplication1\\controllers\\api\\messagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{28DEDF04-9A0B-4D1A-9206-56267B067881}|WebApplication1\\Didur.csproj|solutionrelative:webapplication1\\controllers\\api\\messagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{28DEDF04-9A0B-4D1A-9206-56267B067881}|WebApplication1\\Didur.csproj|d:\\ghubrepos\\travelagency\\webapplication1\\webapplication1\\wwwroot\\js\\messages.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{28DEDF04-9A0B-4D1A-9206-56267B067881}|WebApplication1\\Didur.csproj|solutionrelative:webapplication1\\wwwroot\\js\\messages.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{28DEDF04-9A0B-4D1A-9206-56267B067881}|WebApplication1\\Didur.csproj|d:\\ghubrepos\\travelagency\\webapplication1\\webapplication1\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{28DEDF04-9A0B-4D1A-9206-56267B067881}|WebApplication1\\Didur.csproj|solutionrelative:webapplication1\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{28DEDF04-9A0B-4D1A-9206-56267B067881}|WebApplication1\\Didur.csproj|d:\\ghubrepos\\travelagency\\webapplication1\\webapplication1\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{28DEDF04-9A0B-4D1A-9206-56267B067881}|WebApplication1\\Didur.csproj|solutionrelative:webapplication1\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -74,7 +66,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 11,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -90,67 +82,68 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\ghubrepos\\TravelAgency\\WebApplication1\\WebApplication1\\appsettings.json",
-              "RelativeDocumentMoniker": "WebApplication1\\appsettings.json",
-              "ToolTip": "D:\\ghubrepos\\TravelAgency\\WebApplication1\\WebApplication1\\appsettings.json",
-              "RelativeToolTip": "WebApplication1\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAfAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\ghubrepos\\TravelAgency\\WebApplication1\\WebApplication1\\Program.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Program.cs",
+              "ToolTip": "D:\\ghubrepos\\TravelAgency\\WebApplication1\\WebApplication1\\Program.cs",
+              "RelativeToolTip": "WebApplication1\\Program.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAwwDIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-06T15:18:30.193Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "D:\\ghubrepos\\TravelAgency\\WebApplication1\\WebApplication1\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "WebApplication1\\appsettings.Development.json",
+              "ToolTip": "D:\\ghubrepos\\TravelAgency\\WebApplication1\\WebApplication1\\appsettings.Development.json",
+              "RelativeToolTip": "WebApplication1\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-11-12T14:36:58.401Z"
+              "WhenOpened": "2025-11-13T13:56:57.904Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "auth.js",
+              "DocumentMoniker": "D:\\ghubrepos\\TravelAgency\\WebApplication1\\WebApplication1\\wwwroot\\js\\auth.js",
+              "RelativeDocumentMoniker": "WebApplication1\\wwwroot\\js\\auth.js",
+              "ToolTip": "D:\\ghubrepos\\TravelAgency\\WebApplication1\\WebApplication1\\wwwroot\\js\\auth.js",
+              "RelativeToolTip": "WebApplication1\\wwwroot\\js\\auth.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-11-06T15:19:39.429Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "bootstrap.min.css.map",
-              "DocumentMoniker": "D:\\ghubrepos\\TravelAgency\\WebApplication1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
-              "RelativeDocumentMoniker": "WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
-              "ToolTip": "D:\\ghubrepos\\TravelAgency\\WebApplication1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
-              "RelativeToolTip": "WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAACkrAIAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-11-11T14:31:52.763Z"
+              "Title": "AuthDtos.cs",
+              "DocumentMoniker": "D:\\ghubrepos\\TravelAgency\\WebApplication1\\WebApplication1\\Models\\AuthDtos.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Models\\AuthDtos.cs",
+              "ToolTip": "D:\\ghubrepos\\TravelAgency\\WebApplication1\\WebApplication1\\Models\\AuthDtos.cs",
+              "RelativeToolTip": "WebApplication1\\Models\\AuthDtos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-06T15:15:58.264Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "bootstrap.min.css",
-              "DocumentMoniker": "D:\\ghubrepos\\TravelAgency\\WebApplication1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
-              "RelativeDocumentMoniker": "WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
-              "ToolTip": "D:\\ghubrepos\\TravelAgency\\WebApplication1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
-              "RelativeToolTip": "WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAAAAYAAADUDgEAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-11-11T14:31:43.686Z"
+              "DocumentIndex": 9,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\ghubrepos\\TravelAgency\\WebApplication1\\WebApplication1\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\ghubrepos\\TravelAgency\\WebApplication1\\WebApplication1\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "WebApplication1\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAAwB8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-09T14:51:27.077Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "bootstrap.css.map",
-              "DocumentMoniker": "D:\\ghubrepos\\TravelAgency\\WebApplication1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
-              "RelativeDocumentMoniker": "WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
-              "ToolTip": "D:\\ghubrepos\\TravelAgency\\WebApplication1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
-              "RelativeToolTip": "WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAA/ugIAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-11-11T14:30:45.703Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "bootstrap.css",
-              "DocumentMoniker": "D:\\ghubrepos\\TravelAgency\\WebApplication1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
-              "RelativeDocumentMoniker": "WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
-              "ToolTip": "D:\\ghubrepos\\TravelAgency\\WebApplication1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
-              "RelativeToolTip": "WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
-              "ViewState": "AgIAAAAQAAAAAAAAAAAjwA4QAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-11-11T14:18:12.461Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 10,
               "Title": "site.css",
               "DocumentMoniker": "D:\\ghubrepos\\TravelAgency\\WebApplication1\\WebApplication1\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "WebApplication1\\wwwroot\\css\\site.css",
@@ -162,19 +155,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "MessagesController.cs",
-              "DocumentMoniker": "D:\\ghubrepos\\TravelAgency\\WebApplication1\\WebApplication1\\Controllers\\Api\\MessagesController.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\Api\\MessagesController.cs",
-              "ToolTip": "D:\\ghubrepos\\TravelAgency\\WebApplication1\\WebApplication1\\Controllers\\Api\\MessagesController.cs",
-              "RelativeToolTip": "WebApplication1\\Controllers\\Api\\MessagesController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-06T15:18:19.455Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 11,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "D:\\ghubrepos\\TravelAgency\\WebApplication1\\WebApplication1\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "WebApplication1\\Views\\Shared\\_Layout.cshtml",
@@ -186,56 +167,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\ghubrepos\\TravelAgency\\WebApplication1\\WebApplication1\\Program.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\Program.cs",
-              "ToolTip": "D:\\ghubrepos\\TravelAgency\\WebApplication1\\WebApplication1\\Program.cs",
-              "RelativeToolTip": "WebApplication1\\Program.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAAwBUAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-06T15:18:30.193Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "auth.js",
-              "DocumentMoniker": "D:\\ghubrepos\\TravelAgency\\WebApplication1\\WebApplication1\\wwwroot\\js\\auth.js",
-              "RelativeDocumentMoniker": "WebApplication1\\wwwroot\\js\\auth.js",
-              "ToolTip": "D:\\ghubrepos\\TravelAgency\\WebApplication1\\WebApplication1\\wwwroot\\js\\auth.js",
-              "RelativeToolTip": "WebApplication1\\wwwroot\\js\\auth.js",
-              "ViewState": "AgIAAEQAAAAAAAAAAAAAAE8AAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-11-06T15:19:39.429Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 5,
               "Title": "AuthController.cs",
               "DocumentMoniker": "D:\\ghubrepos\\TravelAgency\\WebApplication1\\WebApplication1\\Controllers\\Api\\AuthController.cs",
               "RelativeDocumentMoniker": "WebApplication1\\Controllers\\Api\\AuthController.cs",
               "ToolTip": "D:\\ghubrepos\\TravelAgency\\WebApplication1\\WebApplication1\\Controllers\\Api\\AuthController.cs",
               "RelativeToolTip": "WebApplication1\\Controllers\\Api\\AuthController.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAkwBQAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-06T15:16:32.121Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "AuthDtos.cs",
-              "DocumentMoniker": "D:\\ghubrepos\\TravelAgency\\WebApplication1\\WebApplication1\\Models\\AuthDtos.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\Models\\AuthDtos.cs",
-              "ToolTip": "D:\\ghubrepos\\TravelAgency\\WebApplication1\\WebApplication1\\Models\\AuthDtos.cs",
-              "RelativeToolTip": "WebApplication1\\Models\\AuthDtos.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-06T15:15:58.264Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\ghubrepos\\TravelAgency\\WebApplication1\\WebApplication1\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "WebApplication1\\Views\\Home\\Index.cshtml",
@@ -244,6 +188,55 @@
               "ViewState": "AgIAAK4AAAAAAAAAAAAMwLMAAABWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-11-04T19:54:08.413Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "D:\\ghubrepos\\TravelAgency\\WebApplication1\\WebApplication1\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Models\\ErrorViewModel.cs",
+              "ToolTip": "D:\\ghubrepos\\TravelAgency\\WebApplication1\\WebApplication1\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "WebApplication1\\Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-06T15:15:26.158Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Entities.cs",
+              "DocumentMoniker": "D:\\ghubrepos\\TravelAgency\\WebApplication1\\WebApplication1\\Models\\Entities.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Models\\Entities.cs",
+              "ToolTip": "D:\\ghubrepos\\TravelAgency\\WebApplication1\\WebApplication1\\Models\\Entities.cs",
+              "RelativeToolTip": "WebApplication1\\Models\\Entities.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T15:23:34.352Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DbTestController.cs",
+              "DocumentMoniker": "D:\\ghubrepos\\TravelAgency\\WebApplication1\\WebApplication1\\Controllers\\DbTestController.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\DbTestController.cs",
+              "ToolTip": "D:\\ghubrepos\\TravelAgency\\WebApplication1\\WebApplication1\\Controllers\\DbTestController.cs",
+              "RelativeToolTip": "WebApplication1\\Controllers\\DbTestController.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAIwC0AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T14:08:15.808Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\ghubrepos\\TravelAgency\\WebApplication1\\WebApplication1\\appsettings.json",
+              "RelativeDocumentMoniker": "WebApplication1\\appsettings.json",
+              "ToolTip": "D:\\ghubrepos\\TravelAgency\\WebApplication1\\WebApplication1\\appsettings.json",
+              "RelativeToolTip": "WebApplication1\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-12T14:36:58.401Z"
             },
             {
               "$type": "Document",
@@ -256,30 +249,6 @@
               "ViewState": "AgIAACoAAAAAAAAAAAAAAD0AAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
               "WhenOpened": "2025-11-06T15:20:20.097Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "D:\\ghubrepos\\TravelAgency\\WebApplication1\\WebApplication1\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\HomeController.cs",
-              "ToolTip": "D:\\ghubrepos\\TravelAgency\\WebApplication1\\WebApplication1\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "WebApplication1\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAowBUAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-09T14:51:27.077Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "ErrorViewModel.cs",
-              "DocumentMoniker": "D:\\ghubrepos\\TravelAgency\\WebApplication1\\WebApplication1\\Models\\ErrorViewModel.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\Models\\ErrorViewModel.cs",
-              "ToolTip": "D:\\ghubrepos\\TravelAgency\\WebApplication1\\WebApplication1\\Models\\ErrorViewModel.cs",
-              "RelativeToolTip": "WebApplication1\\Models\\ErrorViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-06T15:15:26.158Z"
             }
           ]
         }
