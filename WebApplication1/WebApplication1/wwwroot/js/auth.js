@@ -134,6 +134,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 const modalEl = $("loginModal");
                 if (modalEl) bootstrap.Modal.getOrCreateInstance(modalEl).hide();
                 loginForm.reset();
+                window.location.reload();
             } catch (err) {
                 showToast(err.message || "Ошибка входа", "danger");
             } finally {
@@ -188,6 +189,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 const modalEl = $("registerModal");
                 if (modalEl) bootstrap.Modal.getOrCreateInstance(modalEl).hide();
                 registerForm.reset();
+                window.location.reload();
             } catch (err) {
                 showToast(err.message || "Ошибка регистрации", "danger");
             } finally {

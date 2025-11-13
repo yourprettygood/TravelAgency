@@ -1,7 +1,6 @@
-﻿// File: WebApplication1/WebApplication1/Program.cs
+﻿using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.EntityFrameworkCore;
-using WebApplication1.Data;    // здесь будет AppDbContext
-// Views и модели сами подтянутся через контроллеры
+using WebApplication1.Data;
 
 namespace WebApplication1;
 
@@ -11,15 +10,21 @@ public class Program
     {
         var builder = WebApplication.CreateBuilder(args);
 
-        // MVC с представлениями и API-контроллерами
         builder.Services.AddControllersWithViews();
 
-        // Регистрируем DbContext для PostgreSQL
         builder.Services.AddDbContext<AppDbContext>(options =>
             options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
 
-        // Для совместимости со старыми timestamp в Npgsql (по желанию)
         AppContext.SetSwitch("Npgsql.EnableLegacyTimestampBehavior", true);
+
+        builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
+            .AddCookie(options =>
+            {
+                options.LoginPath = "/";
+                options.LogoutPath = "/Account/Logout";
+            });
+
+        builder.Services.AddAuthorization();
 
         var app = builder.Build();
 
@@ -34,16 +39,14 @@ public class Program
 
         app.UseRouting();
 
+        app.UseAuthentication();
         app.UseAuthorization();
 
-        // Подключаем контроллеры (MVC + API)
         app.MapControllers();
 
-        // Классический маршрут для MVC: по / откроется Home/Index
         app.MapControllerRoute(
             name: "default",
-            pattern: "{controller=Home}/{action=Index}/{id?}"
-        );
+            pattern: "{controller=Home}/{action=Index}/{id?}");
 
         app.Run();
     }

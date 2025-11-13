@@ -154,13 +154,24 @@
 
                     <!-- Кнопки модалок -->
                     <li class="nav-item ms-lg-3">
-                        <button class="btn btn-outline-primary btn-sm me-2" data-bs-toggle="modal" data-bs-target="#loginModal">
-                            <i class="fa-regular fa-user me-1"></i> Войти
-                        </button>
-                        <button class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#registerModal">
-                            <i class="fa-solid fa-user-plus me-1"></i> Регистрация
-                        </button>
+                        @if (User?.Identity?.IsAuthenticated ?? false)
+                        {
+                            <span class="me-2 text-muted">Здравствуйте, @User.Identity!.Name!</span>
+                            <a href="/Account/Logout" class="btn btn-outline-danger btn-sm">
+                                <i class="fa-solid fa-right-from-bracket me-1"></i> Выход
+                            </a>
+                        }
+                        else
+                        {
+                            <button class="btn btn-outline-primary btn-sm me-2" data-bs-toggle="modal" data-bs-target="#loginModal">
+                                <i class="fa-regular fa-user me-1"></i> Войти
+                            </button>
+                            <button class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#registerModal">
+                                <i class="fa-solid fa-user-plus me-1"></i> Регистрация
+                            </button>
+                        }
                     </li>
+
                 </ul>
             </div>
         </div>

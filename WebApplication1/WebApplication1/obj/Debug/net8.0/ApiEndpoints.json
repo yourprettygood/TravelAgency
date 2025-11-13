@@ -8,7 +8,7 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "req",
+        "Name": "dto",
         "Type": "WebApplication1.Models.LoginRequest",
         "IsRequired": true
       }
@@ -24,7 +24,7 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "req",
+        "Name": "dto",
         "Type": "WebApplication1.Models.RegisterRequest",
         "IsRequired": true
       }

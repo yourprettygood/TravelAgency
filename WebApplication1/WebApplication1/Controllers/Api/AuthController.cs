@@ -1,64 +1,96 @@
-﻿// File: WebApplication1/WebApplication1/Program.cs
+﻿using System;
+using System.Security.Claims;
+using Microsoft.AspNetCore.Authentication;
+using Microsoft.AspNetCore.Authentication.Cookies;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using WebApplication1.Models; // тут лежит User из AuthDtos.cs
+using WebApplication1.Data;
+using WebApplication1.Models;
 
-// ---------------- НАСТРОЙКА ПРИЛОЖЕНИЯ ----------------
-
-var builder = WebApplication.CreateBuilder(args);
-
-// MVC + API (контроллеры с View + твои Api/AuthController, DbTestController и т.д.)
-builder.Services.AddControllersWithViews();
-
-// Регистрируем DbContext для PostgreSQL
-builder.Services.AddDbContext<AppDbContext>(options =>
-    options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
-
-// Для совместимости со старыми timestamp в Npgsql (по желанию)
-AppContext.SetSwitch("Npgsql.EnableLegacyTimestampBehavior", true);
-
-var app = builder.Build();
-
-if (!app.Environment.IsDevelopment())
+namespace WebApplication1.Controllers.Api
 {
-    app.UseExceptionHandler("/Home/Error");
-    app.UseHsts();
-}
-
-app.UseHttpsRedirection();
-app.UseStaticFiles();
-
-app.UseRouting();
-
-app.UseAuthorization();
-
-// Подключаем контроллеры (и MVC, и API)
-app.MapControllers();
-
-// Классический маршрут для MVC:
-// по адресу / откроется Home/Index (если у тебя есть HomeController с Index)
-app.MapControllerRoute(
-    name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}"
-);
-
-// НИКАКОГО Swagger и НИКАКОГО app.MapGet("/", () => "OK");
-
-app.Run();
-
-// ---------------- КОНТЕКСТ БД ----------------
-
-public class AppDbContext : DbContext
-{
-    public AppDbContext(DbContextOptions<AppDbContext> options)
-        : base(options)
+    [ApiController]
+    [Route("api/[controller]")]
+    public class AuthController : ControllerBase
     {
+        private readonly AppDbContext _db;
+
+        public AuthController(AppDbContext db)
+        {
+            _db = db;
+        }
+
+        [HttpPost("register")]
+        public async Task<IActionResult> Register([FromBody] RegisterRequest dto)
+        {
+            if (!ModelState.IsValid)
+                return BadRequest(new { ok = false, error = "Неверные данные" });
+
+            var email = (dto.Email ?? "").Trim();
+
+            var exists = await _db.Users.AnyAsync(u => u.Email == email);
+            if (exists)
+                return Conflict(new { ok = false, error = "Email уже зарегистрирован" });
+
+            var user = new User
+            {
+                Name = (dto.Name ?? "").Trim(),
+                Email = email,
+                Password = dto.Password ?? "",
+                CreatedAt = DateTime.UtcNow
+            };
+
+            _db.Users.Add(user);
+            await _db.SaveChangesAsync();
+
+            await SignInAsync(user);
+
+            return Ok(new
+            {
+                ok = true,
+                message = "Регистрация успешна",
+                user = new { user.UserId, user.Name, user.Email }
+            });
+        }
+
+        [HttpPost("login")]
+        public async Task<IActionResult> Login([FromBody] LoginRequest dto)
+        {
+            if (!ModelState.IsValid)
+                return BadRequest(new { ok = false, error = "Неверные данные" });
+
+            var email = (dto.Email ?? "").Trim();
+            var pass = dto.Password ?? "";
+
+            var user = await _db.Users
+                .FirstOrDefaultAsync(u => u.Email == email && u.Password == pass);
+
+            if (user == null)
+                return Unauthorized(new { ok = false, error = "Неверный email или пароль" });
+
+            await SignInAsync(user);
+
+            return Ok(new
+            {
+                ok = true,
+                message = "Вход выполнен",
+                user = new { user.UserId, user.Name, user.Email }
+            });
+        }
+
+        private async Task SignInAsync(User user)
+        {
+            var claims = new List<Claim>
+            {
+                new Claim(ClaimTypes.NameIdentifier, user.UserId.ToString()),
+                new Claim(ClaimTypes.Name, user.Name),
+                new Claim(ClaimTypes.Email, user.Email)
+            };
+
+            var identity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
+            var principal = new ClaimsPrincipal(identity);
+
+            await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme, principal);
+        }
     }
-
-    // Таблица users — EF знает, как к ней обращаться
-    public DbSet<User> Users => Set<User>();
-
-    // Тут потом можно добавить остальные таблицы:
-    // public DbSet<Message> Messages => Set<Message>();
-    // public DbSet<Teacher> Teachers => Set<Teacher>();
-    // и т.д.
 }

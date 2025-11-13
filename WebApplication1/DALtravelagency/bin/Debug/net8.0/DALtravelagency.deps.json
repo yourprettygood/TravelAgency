@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "DALtravelagency/1.0.0": {
+        "dependencies": {
+          "DomainTravelAgency": "1.0.0"
+        },
+        "runtime": {
+          "DALtravelagency.dll": {}
+        }
+      },
+      "DomainTravelAgency/1.0.0": {
+        "runtime": {
+          "DomainTravelAgency.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DALtravelagency/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DomainTravelAgency/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

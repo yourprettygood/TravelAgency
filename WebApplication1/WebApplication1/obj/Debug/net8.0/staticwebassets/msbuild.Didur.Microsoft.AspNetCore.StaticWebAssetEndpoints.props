@@ -36,17 +36,17 @@
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Jtxf9L\u002B5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"5430"},{"Name":"Content-Type","Value":"image/x-icon"},{"Name":"ETag","Value":"\u0022Jtxf9L\u002B5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM=\u0022"},{"Name":"Last-Modified","Value":"Tue, 04 Nov 2025 19:08:59 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/Didur/js/auth.1p5prk7o8b.js">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\auth.js'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"1p5prk7o8b"},{"Name":"integrity","Value":"sha256-69tRUffxL0n50AtvZEg1e/gI5lA41yV6AHsK\u002Bg0kLdY="},{"Name":"label","Value":"_content/Didur/js/auth.js"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"9204"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u002269tRUffxL0n50AtvZEg1e/gI5lA41yV6AHsK\u002Bg0kLdY=\u0022"},{"Name":"Last-Modified","Value":"Wed, 12 Nov 2025 12:03:22 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Didur/js/auth.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\auth.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-69tRUffxL0n50AtvZEg1e/gI5lA41yV6AHsK\u002Bg0kLdY="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"9204"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u002269tRUffxL0n50AtvZEg1e/gI5lA41yV6AHsK\u002Bg0kLdY=\u0022"},{"Name":"Last-Modified","Value":"Wed, 12 Nov 2025 12:03:22 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-FhqRc46sAAAkpjFqaxki7slWgbXgtDsPaooPy/LY5wI="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"9290"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022FhqRc46sAAAkpjFqaxki7slWgbXgtDsPaooPy/LY5wI=\u0022"},{"Name":"Last-Modified","Value":"Thu, 13 Nov 2025 21:40:38 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Didur/js/auth.m8qd4w9bw2.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\auth.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"m8qd4w9bw2"},{"Name":"integrity","Value":"sha256-FhqRc46sAAAkpjFqaxki7slWgbXgtDsPaooPy/LY5wI="},{"Name":"label","Value":"_content/Didur/js/auth.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"9290"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022FhqRc46sAAAkpjFqaxki7slWgbXgtDsPaooPy/LY5wI=\u0022"},{"Name":"Last-Modified","Value":"Thu, 13 Nov 2025 21:40:38 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Didur/js/messages.jfk4aai9tl.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\messages.js'))</AssetFile>

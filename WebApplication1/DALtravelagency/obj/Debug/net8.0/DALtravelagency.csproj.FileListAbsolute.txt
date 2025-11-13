@@ -1,0 +1,16 @@
+D:\ghubrepos\TravelAgency\WebApplication1\DALtravelagency\bin\Debug\net8.0\DALtravelagency.deps.json
+D:\ghubrepos\TravelAgency\WebApplication1\DALtravelagency\bin\Debug\net8.0\DALtravelagency.dll
+D:\ghubrepos\TravelAgency\WebApplication1\DALtravelagency\bin\Debug\net8.0\DALtravelagency.pdb
+D:\ghubrepos\TravelAgency\WebApplication1\DALtravelagency\bin\Debug\net8.0\DomainTravelAgency.dll
+D:\ghubrepos\TravelAgency\WebApplication1\DALtravelagency\bin\Debug\net8.0\DomainTravelAgency.pdb
+D:\ghubrepos\TravelAgency\WebApplication1\DALtravelagency\obj\Debug\net8.0\DALtravelagency.csproj.AssemblyReference.cache
+D:\ghubrepos\TravelAgency\WebApplication1\DALtravelagency\obj\Debug\net8.0\DALtravelagency.GeneratedMSBuildEditorConfig.editorconfig
+D:\ghubrepos\TravelAgency\WebApplication1\DALtravelagency\obj\Debug\net8.0\DALtravelagency.AssemblyInfoInputs.cache
+D:\ghubrepos\TravelAgency\WebApplication1\DALtravelagency\obj\Debug\net8.0\DALtravelagency.AssemblyInfo.cs
+D:\ghubrepos\TravelAgency\WebApplication1\DALtravelagency\obj\Debug\net8.0\DALtravelagency.csproj.CoreCompileInputs.cache
+D:\ghubrepos\TravelAgency\WebApplication1\DALtravelagency\obj\Debug\net8.0\DALtravelagency.sourcelink.json
+D:\ghubrepos\TravelAgency\WebApplication1\DALtravelagency\obj\Debug\net8.0\DALtrave.49B9F8F1.Up2Date
+D:\ghubrepos\TravelAgency\WebApplication1\DALtravelagency\obj\Debug\net8.0\DALtravelagency.dll
+D:\ghubrepos\TravelAgency\WebApplication1\DALtravelagency\obj\Debug\net8.0\refint\DALtravelagency.dll
+D:\ghubrepos\TravelAgency\WebApplication1\DALtravelagency\obj\Debug\net8.0\DALtravelagency.pdb
+D:\ghubrepos\TravelAgency\WebApplication1\DALtravelagency\obj\Debug\net8.0\ref\DALtravelagency.dll

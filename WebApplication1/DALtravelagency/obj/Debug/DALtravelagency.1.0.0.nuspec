@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>DALtravelagency</id>
+    <version>1.0.0</version>
+    <authors>DALtravelagency</authors>
+    <description>Package Description</description>
+    <repository type="git" commit="cd4018132c117304eac4515a3e134405a6c269af" />
+    <dependencies>
+      <group targetFramework="net8.0">
+        <dependency id="DomainTravelAgency" version="1.0.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="D:\ghubrepos\TravelAgency\WebApplication1\DALtravelagency\bin\Debug\net8.0\DALtravelagency.dll" target="lib\net8.0\DALtravelagency.dll" />
+  </files>
+</package>

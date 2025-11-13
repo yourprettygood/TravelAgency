@@ -2,8 +2,9 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System.Text;
-using WebApplication1;           // AppDbContext
-using WebApplication1.Models;    // наши сущности (User, CourseProgram и т.д.)
+using WebApplication1.Data;
+using WebApplication1.Models;
+
 
 namespace WebApplication1.Controllers
 {
