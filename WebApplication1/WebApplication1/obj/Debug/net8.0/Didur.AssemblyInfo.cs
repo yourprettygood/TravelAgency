@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Didur")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9831b8ef9d824d86c37c3f9ea1eca19192ca4d55")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5eac5fe5acddca2db0247e39dd261821797a31ba")]
 [assembly: System.Reflection.AssemblyProductAttribute("Didur")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Didur")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

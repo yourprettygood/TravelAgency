@@ -1,100 +1,111 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Security.Claims;
+using System.Threading.Tasks;
+using DALtravelagency.Interfaces;
+using DomainTravelAgency.Models;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
-using DALtravelagency;             // AppDbContext
-using DomainTravelAgency.Models;   // User, Message и т.п.
+using WebApplication1.Models;
+using DomainUser = DomainTravelAgency.Models.User;
 
-
-
-
-//SERVICE - DAL - DOMAIN
 namespace WebApplication1.Controllers.Api
 {
     [ApiController]
     [Route("api/[controller]")]
     public class AuthController : ControllerBase
     {
-        private readonly AppDbContext _db;
+        private readonly IAccountStorage _accounts;
 
-        public AuthController(AppDbContext db)
+        public AuthController(IAccountStorage accounts)
         {
-            _db = db;
+            _accounts = accounts;
         }
 
         [HttpPost("register")]
-        public async Task<IActionResult> Register([FromBody] WebApplication1.Models.RegisterRequest dto)
+        public async Task<IActionResult> Register([FromBody] RegisterRequest dto)
         {
             if (!ModelState.IsValid)
-                return BadRequest(new { ok = false, error = "Неверные данные" });
+                return BadRequest(new { ok = false, error = "Некорректные данные" });
 
             var email = (dto.Email ?? "").Trim();
 
-            var exists = await _db.Users.AnyAsync(u => u.Email == email);
-            if (exists)
-                return Conflict(new { ok = false, error = "Email уже зарегистрирован" });
+            // проверяем, свободен ли email
+            var isFree = await _accounts.IsEmailFreeAsync(email);
+            if (!isFree)
+                return BadRequest(new { ok = false, error = "Пользователь с таким email уже существует" });
 
-            var user = new User
+            var user = new DomainUser
             {
                 Name = (dto.Name ?? "").Trim(),
                 Email = email,
-                Password = dto.Password ?? "",
+                Password = dto.Password ?? "",   // пока без хэша
                 CreatedAt = DateTime.UtcNow
             };
 
-            _db.Users.Add(user);
-            await _db.SaveChangesAsync();
+            var created = await _accounts.AddAsync(user);
 
-            await SignInAsync(user);
+            await SignInAsync(created);
 
             return Ok(new
             {
                 ok = true,
-                message = "Регистрация успешна",
-                user = new { user.UserId, user.Name, user.Email }
+                user = new
+                {
+                    created.UserId,
+                    created.Name,
+                    created.Email
+                }
             });
         }
 
         [HttpPost("login")]
-        public async Task<IActionResult> Login([FromBody] WebApplication1.Models.LoginRequest dto)
+        public async Task<IActionResult> Login([FromBody] LoginRequest dto)
         {
             if (!ModelState.IsValid)
-                return BadRequest(new { ok = false, error = "Неверные данные" });
+                return BadRequest(new { ok = false, error = "Некорректные данные" });
 
             var email = (dto.Email ?? "").Trim();
             var pass = dto.Password ?? "";
 
-            var user = await _db.Users
-                .FirstOrDefaultAsync(u => u.Email == email && u.Password == pass);
-
-            if (user == null)
-                return Unauthorized(new { ok = false, error = "Неверный email или пароль" });
+            var user = await _accounts.GetByEmailAsync(email);
+            if (user == null || user.Password != pass)
+                return BadRequest(new { ok = false, error = "Неверный email или пароль" });
 
             await SignInAsync(user);
 
             return Ok(new
             {
                 ok = true,
-                message = "Вход выполнен",
-                user = new { user.UserId, user.Name, user.Email }
+                user = new
+                {
+                    user.UserId,
+                    user.Name,
+                    user.Email
+                }
             });
         }
 
-        private async Task SignInAsync(User user)
+        // === ВАЖНО: этот метод ДОЛЖЕН быть внутри класса AuthController ===
+        private async Task SignInAsync(DomainUser user)
         {
             var claims = new List<Claim>
             {
                 new Claim(ClaimTypes.NameIdentifier, user.UserId.ToString()),
-                new Claim(ClaimTypes.Name, user.Name),
-                new Claim(ClaimTypes.Email, user.Email)
+                new Claim(ClaimTypes.Name, user.Name ?? string.Empty),
+                new Claim(ClaimTypes.Email, user.Email ?? string.Empty)
             };
 
-            var identity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
-            var principal = new ClaimsPrincipal(identity);
+            var claimsIdentity = new ClaimsIdentity(
+                claims,
+                CookieAuthenticationDefaults.AuthenticationScheme
+            );
 
-            await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme, principal);
+            await HttpContext.SignInAsync(
+                CookieAuthenticationDefaults.AuthenticationScheme,
+                new ClaimsPrincipal(claimsIdentity)
+            );
         }
     }
 }

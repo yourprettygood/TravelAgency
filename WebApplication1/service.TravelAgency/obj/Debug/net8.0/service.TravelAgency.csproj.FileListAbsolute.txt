@@ -45,12 +45,6 @@ D:\313\Дидур\practice\TravelAgency\WebApplication1\service.TravelAgency\obj
 D:\313\Дидур\practice\TravelAgency\WebApplication1\service.TravelAgency\obj\Debug\net8.0\refint\service.TravelAgency.dll
 D:\313\Дидур\practice\TravelAgency\WebApplication1\service.TravelAgency\obj\Debug\net8.0\service.TravelAgency.pdb
 D:\313\Дидур\practice\TravelAgency\WebApplication1\service.TravelAgency\obj\Debug\net8.0\ref\service.TravelAgency.dll
-D:\ghubrepos\TravelAgency\WebApplication1\service.TravelAgency\obj\Debug\net8.0\service.TravelAgency.csproj.AssemblyReference.cache
-D:\ghubrepos\TravelAgency\WebApplication1\service.TravelAgency\obj\Debug\net8.0\service.TravelAgency.GeneratedMSBuildEditorConfig.editorconfig
-D:\ghubrepos\TravelAgency\WebApplication1\service.TravelAgency\obj\Debug\net8.0\service.TravelAgency.AssemblyInfoInputs.cache
-D:\ghubrepos\TravelAgency\WebApplication1\service.TravelAgency\obj\Debug\net8.0\service.TravelAgency.AssemblyInfo.cs
-D:\ghubrepos\TravelAgency\WebApplication1\service.TravelAgency\obj\Debug\net8.0\service.TravelAgency.csproj.CoreCompileInputs.cache
-D:\ghubrepos\TravelAgency\WebApplication1\service.TravelAgency\obj\Debug\net8.0\service.TravelAgency.sourcelink.json
 D:\ghubrepos\TravelAgency\WebApplication1\service.TravelAgency\bin\Debug\net8.0\service.TravelAgency.deps.json
 D:\ghubrepos\TravelAgency\WebApplication1\service.TravelAgency\bin\Debug\net8.0\service.TravelAgency.dll
 D:\ghubrepos\TravelAgency\WebApplication1\service.TravelAgency\bin\Debug\net8.0\service.TravelAgency.pdb
@@ -58,6 +52,12 @@ D:\ghubrepos\TravelAgency\WebApplication1\service.TravelAgency\bin\Debug\net8.0\
 D:\ghubrepos\TravelAgency\WebApplication1\service.TravelAgency\bin\Debug\net8.0\DomainTravelAgency.dll
 D:\ghubrepos\TravelAgency\WebApplication1\service.TravelAgency\bin\Debug\net8.0\DALtravelagency.pdb
 D:\ghubrepos\TravelAgency\WebApplication1\service.TravelAgency\bin\Debug\net8.0\DomainTravelAgency.pdb
+D:\ghubrepos\TravelAgency\WebApplication1\service.TravelAgency\obj\Debug\net8.0\service.TravelAgency.csproj.AssemblyReference.cache
+D:\ghubrepos\TravelAgency\WebApplication1\service.TravelAgency\obj\Debug\net8.0\service.TravelAgency.GeneratedMSBuildEditorConfig.editorconfig
+D:\ghubrepos\TravelAgency\WebApplication1\service.TravelAgency\obj\Debug\net8.0\service.TravelAgency.AssemblyInfoInputs.cache
+D:\ghubrepos\TravelAgency\WebApplication1\service.TravelAgency\obj\Debug\net8.0\service.TravelAgency.AssemblyInfo.cs
+D:\ghubrepos\TravelAgency\WebApplication1\service.TravelAgency\obj\Debug\net8.0\service.TravelAgency.csproj.CoreCompileInputs.cache
+D:\ghubrepos\TravelAgency\WebApplication1\service.TravelAgency\obj\Debug\net8.0\service.TravelAgency.sourcelink.json
 D:\ghubrepos\TravelAgency\WebApplication1\service.TravelAgency\obj\Debug\net8.0\service..DA80EBA9.Up2Date
 D:\ghubrepos\TravelAgency\WebApplication1\service.TravelAgency\obj\Debug\net8.0\service.TravelAgency.dll
 D:\ghubrepos\TravelAgency\WebApplication1\service.TravelAgency\obj\Debug\net8.0\refint\service.TravelAgency.dll

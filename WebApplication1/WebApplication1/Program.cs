@@ -1,6 +1,11 @@
-﻿using Microsoft.AspNetCore.Authentication.Cookies;
+﻿using DALtravelagency;
+using DALtravelagency.Interfaces;
+using DALtravelagency.Storage;
+using DomainTravelAgency.Models;
 using Microsoft.EntityFrameworkCore;
-using DALtravelagency; // здесь лежит AppDbContext
+using Microsoft.AspNetCore.Authentication.Cookies;
+
+
 
 namespace WebApplication1;
 
@@ -8,6 +13,7 @@ public class Program
 {
     public static void Main(string[] args)
     {
+
         var builder = WebApplication.CreateBuilder(args);
 
         // MVC
@@ -15,8 +21,10 @@ public class Program
 
         // DbContext + PostgreSQL
         builder.Services.AddDbContext<AppDbContext>(options =>
-            options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
+    options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
 
+        // Репозиторий для аккаунтов (User)
+        builder.Services.AddScoped<IAccountStorage, UserStorage>();
         // Настройка для старого поведения таймстампов в Npgsql (чтоб не ругался)
         AppContext.SetSwitch("Npgsql.EnableLegacyTimestampBehavior", true);
 
