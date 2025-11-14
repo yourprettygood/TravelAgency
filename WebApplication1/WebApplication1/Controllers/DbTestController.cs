@@ -2,8 +2,9 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System.Text;
-using WebApplication1.Data;
-using WebApplication1.Models;
+using DALtravelagency;             // для AppDbContext
+using DomainTravelAgency.Models;   // для User, CourseProgram и т.д.
+
 
 
 namespace WebApplication1.Controllers

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "mTE6jK2KSY8o1d76uneKgkiKlYFypsNEi5YYnto1w9Y=",
+  "Hash": "ZxgXv1eWmCkBVBcZFC6F1hga+nuzeYuXEuoKYZTZCCI=",
   "Source": "Didur",
   "BasePath": "_content/Didur",
   "Mode": "Default",
@@ -31,8 +31,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ApplicationBundle",
-      "Fingerprint": "edu3buhjyw",
-      "Integrity": "flDzp1ijQCKKFrfMyYhZPYqc6DbPUixSRGCgzxgidcs=",
+      "Fingerprint": "x82t7se5zm",
+      "Integrity": "oSfXSNeoq8NvtoUtRpLrlOmckHryT+2BHYXKpt9fBro=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "D:\\ghubrepos\\TravelAgency\\WebApplication1\\WebApplication1\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Didur.styles.css"
@@ -52,8 +52,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ProjectBundle",
-      "Fingerprint": "edu3buhjyw",
-      "Integrity": "flDzp1ijQCKKFrfMyYhZPYqc6DbPUixSRGCgzxgidcs=",
+      "Fingerprint": "x82t7se5zm",
+      "Integrity": "oSfXSNeoq8NvtoUtRpLrlOmckHryT+2BHYXKpt9fBro=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "D:\\ghubrepos\\TravelAgency\\WebApplication1\\WebApplication1\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Didur.bundle.scp.css"
@@ -1463,11 +1463,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"flDzp1ijQCKKFrfMyYhZPYqc6DbPUixSRGCgzxgidcs=\""
+          "Value": "\"oSfXSNeoq8NvtoUtRpLrlOmckHryT+2BHYXKpt9fBro=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 04 Nov 2025 19:08:59 GMT"
+          "Value": "Fri, 14 Nov 2025 14:35:16 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1477,97 +1477,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-flDzp1ijQCKKFrfMyYhZPYqc6DbPUixSRGCgzxgidcs="
-        }
-      ]
-    },
-    {
-      "Route": "Didur.edu3buhjyw.bundle.scp.css",
-      "AssetFile": "D:\\ghubrepos\\TravelAgency\\WebApplication1\\WebApplication1\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Didur.bundle.scp.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1123"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"flDzp1ijQCKKFrfMyYhZPYqc6DbPUixSRGCgzxgidcs=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 04 Nov 2025 19:08:59 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "edu3buhjyw"
-        },
-        {
-          "Name": "label",
-          "Value": "Didur.bundle.scp.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-flDzp1ijQCKKFrfMyYhZPYqc6DbPUixSRGCgzxgidcs="
-        }
-      ]
-    },
-    {
-      "Route": "Didur.edu3buhjyw.styles.css",
-      "AssetFile": "D:\\ghubrepos\\TravelAgency\\WebApplication1\\WebApplication1\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Didur.styles.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1123"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"flDzp1ijQCKKFrfMyYhZPYqc6DbPUixSRGCgzxgidcs=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 04 Nov 2025 19:08:59 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "edu3buhjyw"
-        },
-        {
-          "Name": "label",
-          "Value": "Didur.styles.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-flDzp1ijQCKKFrfMyYhZPYqc6DbPUixSRGCgzxgidcs="
+          "Value": "sha256-oSfXSNeoq8NvtoUtRpLrlOmckHryT+2BHYXKpt9fBro="
         }
       ]
     },
@@ -1590,11 +1500,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"flDzp1ijQCKKFrfMyYhZPYqc6DbPUixSRGCgzxgidcs=\""
+          "Value": "\"oSfXSNeoq8NvtoUtRpLrlOmckHryT+2BHYXKpt9fBro=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 04 Nov 2025 19:08:59 GMT"
+          "Value": "Fri, 14 Nov 2025 14:35:16 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1604,7 +1514,97 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-flDzp1ijQCKKFrfMyYhZPYqc6DbPUixSRGCgzxgidcs="
+          "Value": "sha256-oSfXSNeoq8NvtoUtRpLrlOmckHryT+2BHYXKpt9fBro="
+        }
+      ]
+    },
+    {
+      "Route": "Didur.x82t7se5zm.bundle.scp.css",
+      "AssetFile": "D:\\ghubrepos\\TravelAgency\\WebApplication1\\WebApplication1\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Didur.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1123"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"oSfXSNeoq8NvtoUtRpLrlOmckHryT+2BHYXKpt9fBro=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 14 Nov 2025 14:35:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "x82t7se5zm"
+        },
+        {
+          "Name": "label",
+          "Value": "Didur.bundle.scp.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-oSfXSNeoq8NvtoUtRpLrlOmckHryT+2BHYXKpt9fBro="
+        }
+      ]
+    },
+    {
+      "Route": "Didur.x82t7se5zm.styles.css",
+      "AssetFile": "D:\\ghubrepos\\TravelAgency\\WebApplication1\\WebApplication1\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Didur.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1123"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"oSfXSNeoq8NvtoUtRpLrlOmckHryT+2BHYXKpt9fBro=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 14 Nov 2025 14:35:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "x82t7se5zm"
+        },
+        {
+          "Name": "label",
+          "Value": "Didur.styles.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-oSfXSNeoq8NvtoUtRpLrlOmckHryT+2BHYXKpt9fBro="
         }
       ]
     },

@@ -4,9 +4,13 @@ using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using WebApplication1.Data;
-using WebApplication1.Models;
+using DALtravelagency;             // AppDbContext
+using DomainTravelAgency.Models;   // User, Message и т.п.
 
+
+
+
+//SERVICE - DAL - DOMAIN
 namespace WebApplication1.Controllers.Api
 {
     [ApiController]
@@ -21,7 +25,7 @@ namespace WebApplication1.Controllers.Api
         }
 
         [HttpPost("register")]
-        public async Task<IActionResult> Register([FromBody] RegisterRequest dto)
+        public async Task<IActionResult> Register([FromBody] WebApplication1.Models.RegisterRequest dto)
         {
             if (!ModelState.IsValid)
                 return BadRequest(new { ok = false, error = "Неверные данные" });
@@ -54,7 +58,7 @@ namespace WebApplication1.Controllers.Api
         }
 
         [HttpPost("login")]
-        public async Task<IActionResult> Login([FromBody] LoginRequest dto)
+        public async Task<IActionResult> Login([FromBody] WebApplication1.Models.LoginRequest dto)
         {
             if (!ModelState.IsValid)
                 return BadRequest(new { ok = false, error = "Неверные данные" });

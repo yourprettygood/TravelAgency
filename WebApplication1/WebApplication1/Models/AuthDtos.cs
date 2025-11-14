@@ -1,5 +1,6 @@
 ﻿// File: WebApplication1/WebApplication1/Models/AuthDtos.cs
 using System.ComponentModel.DataAnnotations;
+using WebApplication1.Models;
 
 namespace WebApplication1.Models
 {

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DALtravelagency")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cd4018132c117304eac4515a3e134405a6c269af")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9831b8ef9d824d86c37c3f9ea1eca19192ca4d55")]
 [assembly: System.Reflection.AssemblyProductAttribute("DALtravelagency")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DALtravelagency")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

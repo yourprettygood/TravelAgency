@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.EntityFrameworkCore;
-using WebApplication1.Data;
+using DALtravelagency; // здесь лежит AppDbContext
 
 namespace WebApplication1;
 
@@ -10,13 +10,17 @@ public class Program
     {
         var builder = WebApplication.CreateBuilder(args);
 
+        // MVC
         builder.Services.AddControllersWithViews();
 
+        // DbContext + PostgreSQL
         builder.Services.AddDbContext<AppDbContext>(options =>
             options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
 
+        // Настройка для старого поведения таймстампов в Npgsql (чтоб не ругался)
         AppContext.SetSwitch("Npgsql.EnableLegacyTimestampBehavior", true);
 
+        // Куки-аутентификация
         builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
             .AddCookie(options =>
             {

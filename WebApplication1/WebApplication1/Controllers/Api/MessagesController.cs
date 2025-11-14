@@ -1,5 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using WebApplication1.Models;
+using DomainTravelAgency.Models;
+
 
 namespace WebApplication1.Controllers.Api
 {

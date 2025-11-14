@@ -819,6 +819,21 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
+      "DALtravelagency/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "DomainTravelAgency": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "8.0.11",
+          "Npgsql.EntityFrameworkCore.PostgreSQL": "8.0.11"
+        },
+        "compile": {
+          "bin/placeholder/DALtravelagency.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DALtravelagency.dll": {}
+        }
+      },
       "DomainTravelAgency/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
@@ -833,7 +848,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
-          "DomainTravelAgency": "1.0.0"
+          "DALtravelagency": "1.0.0"
         },
         "compile": {
           "bin/placeholder/service.TravelAgency.dll": {}
@@ -2124,6 +2139,11 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "DALtravelagency/1.0.0": {
+      "type": "project",
+      "path": "../DALtravelagency/DALtravelagency.csproj",
+      "msbuildProject": "../DALtravelagency/DALtravelagency.csproj"
+    },
     "DomainTravelAgency/1.0.0": {
       "type": "project",
       "path": "../DomainTravelAgency/DomainTravelAgency.csproj",
@@ -2137,6 +2157,8 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "DALtravelagency >= 1.0.0",
+      "DomainTravelAgency >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 8.0.11",
       "Microsoft.EntityFrameworkCore.Design >= 8.0.11",
       "Npgsql.EntityFrameworkCore.PostgreSQL >= 8.0.11",
@@ -2175,6 +2197,12 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
+            "D:\\ghubrepos\\TravelAgency\\WebApplication1\\DALtravelagency\\DALtravelagency.csproj": {
+              "projectPath": "D:\\ghubrepos\\TravelAgency\\WebApplication1\\DALtravelagency\\DALtravelagency.csproj"
+            },
+            "D:\\ghubrepos\\TravelAgency\\WebApplication1\\DomainTravelAgency\\DomainTravelAgency.csproj": {
+              "projectPath": "D:\\ghubrepos\\TravelAgency\\WebApplication1\\DomainTravelAgency\\DomainTravelAgency.csproj"
+            },
             "D:\\ghubrepos\\TravelAgency\\WebApplication1\\service.TravelAgency\\service.TravelAgency.csproj": {
               "projectPath": "D:\\ghubrepos\\TravelAgency\\WebApplication1\\service.TravelAgency\\service.TravelAgency.csproj"
             }
